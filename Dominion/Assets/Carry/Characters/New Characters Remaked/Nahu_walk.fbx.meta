@@ -1,0 +1,672 @@
+fileFormatVersion: 2
+guid: 39ebc36a85b7ded49821a83942c49ab3
+ModelImporter:
+  serializedVersion: 20300
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: walk
+      takeName: walk
+      internalID: -3419257869308726280
+      firstFrame: 0
+      lastFrame: 50
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: Nahu_walk(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Panther
+      parentName: Nahu_walk(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.5000001, y: -0.50000006, z: -0.4999999, w: 0.49999997}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PantherLLegPlatform
+      parentName: Nahu_walk(Clone)
+      position: {x: -0.1539597, y: 0.031889044, z: -0.35660574}
+      rotation: {x: 0.562933, y: -0.4279097, z: -0.5629327, w: 0.42790934}
+      scale: {x: 0.99999994, y: 0.9999998, z: 1}
+    - name: PantherRLegPlatform
+      parentName: Nahu_walk(Clone)
+      position: {x: 0.15395975, y: 0.0038296352, z: -0.004113312}
+      rotation: {x: 0.4919014, y: -0.5079704, z: -0.49190053, w: 0.50796944}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PantherLLegPlatform 1
+      parentName: Nahu_walk(Clone)
+      position: {x: -0.13058357, y: 0.003856691, z: 0.47069985}
+      rotation: {x: 0.4949944, y: -0.51116437, z: -0.48878798, w: 0.50475526}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: PantherRLegPlatform 1
+      parentName: Nahu_walk(Clone)
+      position: {x: 0.130642, y: 0.032824483, z: 0.1155585}
+      rotation: {x: -0.56067604, y: 0.4234796, z: 0.5677941, w: -0.4288558}
+      scale: {x: 1, y: 1, z: 1}
+    - name: eyes_nez:polySurface19Nahu
+      parentName: Nahu_walk(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: colie:crops_004:transform7
+      parentName: eyes_nez:polySurface19Nahu
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: eyes_nez:NahupolySurface18
+      parentName: Nahu_walk(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: colie:crops_004:transform1
+      parentName: eyes_nez:NahupolySurface18
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: eyes_nez:NahupolySurface15
+      parentName: Nahu_walk(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: colie:crops_004:transform2
+      parentName: eyes_nez:NahupolySurface15
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: colie:ZBrush_defualt_groupNahu
+      parentName: Nahu_walk(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: colie:crops_004:transform3
+      parentName: colie:ZBrush_defualt_groupNahu
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: colie:Group46359
+      parentName: Nahu_walk(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: colie:crops_004:transform6
+      parentName: colie:Group46359
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: colie:NahupolySurface20
+      parentName: Nahu_walk(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: colie:crops_004:transform5
+      parentName: colie:NahupolySurface20
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: colie:NahupolySurface13
+      parentName: Nahu_walk(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: colie:crops_004:transform4
+      parentName: colie:NahupolySurface13
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: asset_002:polySurface10Nahu
+      parentName: Nahu_walk(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: colie:crops_004:transform9
+      parentName: asset_002:polySurface10Nahu
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: asset_002:NahupolySurface6
+      parentName: Nahu_walk(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: colie:crops_004:transform14
+      parentName: asset_002:NahupolySurface6
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: asset_002:NahupolySurface7
+      parentName: Nahu_walk(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: colie:crops_004:transform10
+      parentName: asset_002:NahupolySurface7
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: asset_002:NahupolySurface8
+      parentName: Nahu_walk(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: colie:crops_004:transform12
+      parentName: asset_002:NahupolySurface8
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: asset_002:NahupolySurface9
+      parentName: Nahu_walk(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: colie:crops_004:transform13
+      parentName: asset_002:NahupolySurface9
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: crops_004:polySurface11Nahu
+      parentName: Nahu_walk(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: colie:crops_004:transform8
+      parentName: crops_004:polySurface11Nahu
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: crops_004:NahupolySurface14
+      parentName: Nahu_walk(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: colie:crops_004:transform11
+      parentName: crops_004:NahupolySurface14
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: crops_004:NahupolySurface12
+      parentName: Nahu_walk(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: colie:crops_004:transform15
+      parentName: crops_004:NahupolySurface12
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: colie:crops_004:NahupolySurface12
+      parentName: Nahu_walk(Clone)
+      position: {x: 0.000000057220458, y: 0.79253185, z: -0.18303683}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PantherPelvis
+      parentName: Nahu_walk(Clone)
+      position: {x: -0.013366986, y: 0.51440483, z: -0.008259892}
+      rotation: {x: 0.41084123, y: -0.24430445, z: -0.5285241, w: 0.7015605}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: PantherRLeg1
+      parentName: PantherPelvis
+      position: {x: 0.02102375, y: 0.012200012, z: -0.06765629}
+      rotation: {x: -0.062567994, y: 0.98706925, z: -0.09746526, w: 0.11081618}
+      scale: {x: 1.0000064, y: 0.99999386, z: 1.0000002}
+    - name: PantherRLeg2
+      parentName: PantherRLeg1
+      position: {x: -0.2114741, y: 0.00000014305114, z: 0.000000038146972}
+      rotation: {x: -0.000037536778, y: 0.0000029161874, z: 0.060597762, w: 0.99816227}
+      scale: {x: 1.0000252, y: 0.99997514, z: 0.99999976}
+    - name: PantherRLegPalm
+      parentName: PantherRLeg2
+      position: {x: -0.16741006, y: 0.000000019073486, z: 0}
+      rotation: {x: 0.056472626, y: -0.00876435, z: -0.021583993, w: 0.99813235}
+      scale: {x: 1.0000807, y: 0.9999247, z: 0.99999565}
+    - name: PantherRLegDigit11
+      parentName: PantherRLegPalm
+      position: {x: -0.24718373, y: -0.0025853775, z: -0.007412653}
+      rotation: {x: -0.030854048, y: 0.0312619, z: -0.47115123, w: 0.8809582}
+      scale: {x: 1.0002594, y: 0.9997447, z: 0.99999803}
+    - name: PantherRLegDigit12
+      parentName: PantherRLegDigit11
+      position: {x: -0.10293845, y: -0.0000000047683715, z: 0.000000009536743}
+      rotation: {x: -0.000000037167077, y: 0.000000011888474, z: 0.44634724, w: 0.89485985}
+      scale: {x: 1.0004865, y: 0.99952567, z: 0.99999297}
+    - name: PantherRLegDigit01
+      parentName: PantherRLegPalm
+      position: {x: -0.24077684, y: -0.0017112469, z: -0.015110864}
+      rotation: {x: -0.18008207, y: 0.18462569, z: -0.9562731, w: 0.13793342}
+      scale: {x: 1.000244, y: 0.99974924, z: 1.0000085}
+    - name: PantherRLegDigit02
+      parentName: PantherRLegDigit01
+      position: {x: -0.11689384, y: 0.0000000023841857, z: 0}
+      rotation: {x: -0.00000006104131, y: 0.0000000028488052, z: 0.57163274, w: 0.8205096}
+      scale: {x: 1.0005968, y: 0.9994276, z: 0.99998045}
+    - name: PantherRLegDigit21
+      parentName: PantherRLegPalm
+      position: {x: -0.2450465, y: -0.000031285286, z: 0.00087115285}
+      rotation: {x: 0.12703241, y: 0.04708504, z: -0.4551309, w: 0.88005775}
+      scale: {x: 1.0002493, y: 0.99974674, z: 1.0000056}
+    - name: PantherRLegDigit22
+      parentName: PantherRLegDigit21
+      position: {x: -0.08922111, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.000000010985623, y: -0.000000012530576, z: 0.37805045, w: 0.925785}
+      scale: {x: 1.0004138, y: 0.9995738, z: 1.0000172}
+    - name: PantherRLegDigit31
+      parentName: PantherRLegPalm
+      position: {x: -0.24945286, y: -0.0033563375, z: 0.021190166}
+      rotation: {x: 0.17101017, y: 0.07440887, z: -0.45298296, w: 0.87179434}
+      scale: {x: 1.0002449, y: 0.9997439, z: 1.0000131}
+    - name: PantherRLegDigit32
+      parentName: PantherRLegDigit31
+      position: {x: -0.0737147, y: 0.000000009536743, z: 0}
+      rotation: {x: -0.000000009430444, y: -0.000000018845776, z: 0.316266, w: 0.94867057}
+      scale: {x: 1.0003529, y: 0.9996309, z: 1.0000206}
+    - name: PantherSpine1
+      parentName: PantherPelvis
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.0050548133, y: 0.0020372027, z: -0.10347387, w: 0.9946173}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1.0000001}
+    - name: PantherSpine2
+      parentName: PantherSpine1
+      position: {x: -0.08415547, y: 0, z: 0.0000000047683715}
+      rotation: {x: -0.00041826442, y: -0.026805915, z: -0.04178377, w: 0.99876696}
+      scale: {x: 0.99999994, y: 0.9999998, z: 1}
+    - name: PantherSpine3
+      parentName: PantherSpine2
+      position: {x: -0.0841555, y: 0.000000038146972, z: 0}
+      rotation: {x: -0.004752428, y: -0.041668836, z: -0.024764236, w: 0.9988132}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: PantherSpine4
+      parentName: PantherSpine3
+      position: {x: -0.08415552, y: 0, z: -0.0000000023841857}
+      rotation: {x: -0.004351254, y: -0.042226154, z: -0.011626125, w: 0.99903095}
+      scale: {x: 1.0000005, y: 1.0000002, z: 0.9999998}
+    - name: PantherSpine5
+      parentName: PantherSpine4
+      position: {x: -0.08415552, y: 0.000000038146972, z: 0}
+      rotation: {x: -0.004519476, y: -0.035565358, z: 0.06739376, w: 0.9970821}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000001}
+    - name: PantherSpine6
+      parentName: PantherSpine5
+      position: {x: -0.08415549, y: 0, z: 0.0000000023841857}
+      rotation: {x: -0.0021336959, y: -0.024514018, z: 0.00970775, w: 0.9996501}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1}
+    - name: PantherRibcage
+      parentName: PantherSpine6
+      position: {x: -0.0841555, y: 0, z: 0}
+      rotation: {x: 0.025425129, y: -0.28609037, z: 0.31223512, w: 0.9055469}
+      scale: {x: 0.99999917, y: 0.9999998, z: 0.99999964}
+    - name: PantherLLegShoulderblade
+      parentName: PantherRibcage
+      position: {x: 0.031259917, y: 0.008335685, z: 0.05317567}
+      rotation: {x: 0.8429811, y: -0.47225678, z: -0.14367817, w: -0.21380621}
+      scale: {x: 1.0000002, y: 0.99999946, z: 1.0000011}
+    - name: PantherLLeg1 1
+      parentName: PantherLLegShoulderblade
+      position: {x: -0.17504951, y: -0.000000076293944, z: 0.00000030517577}
+      rotation: {x: -0.22506887, y: 0.17372747, z: -0.2743908, w: 0.91862535}
+      scale: {x: 1.0000007, y: 1.0000013, z: 0.99999905}
+    - name: PantherLLeg2 1
+      parentName: PantherLLeg1 1
+      position: {x: -0.20823741, y: 0, z: -0.000000038146972}
+      rotation: {x: 0.01555611, y: -0.0007952218, z: -0.036428597, w: 0.9992149}
+      scale: {x: 1.0000014, y: 0.9999996, z: 1.0000002}
+    - name: PantherLLegPalm 1
+      parentName: PantherLLeg2 1
+      position: {x: -0.22049639, y: -0.000000038146972, z: 0.000000009536743}
+      rotation: {x: -0.001936567, y: -0.0031494456, z: 0.087036714, w: 0.9961983}
+      scale: {x: 1.000004, y: 0.9999958, z: 1.0000005}
+    - name: PantherLLegDigit11 1
+      parentName: PantherLLegPalm 1
+      position: {x: -0.06492408, y: -0.0072652814, z: -0.0012713909}
+      rotation: {x: -0.0934784, y: 0.030530803, z: -0.6229236, w: 0.7760773}
+      scale: {x: 1.0000161, y: 0.9999877, z: 0.99999994}
+    - name: PantherLLegDigit12 1
+      parentName: PantherLLegDigit11 1
+      position: {x: -0.07378429, y: 0, z: 0}
+      rotation: {x: 0.000000034395, y: -0.00000002679802, z: 0.53129, w: 0.84719}
+      scale: {x: 1.0000356, y: 0.99997175, z: 0.9999992}
+    - name: PantherLLegDigit01 1
+      parentName: PantherLLegPalm 1
+      position: {x: -0.066557646, y: -0.0042197797, z: 0.008940373}
+      rotation: {x: 0.06710909, y: -0.018077731, z: -0.57805514, w: 0.8130325}
+      scale: {x: 1.0000125, y: 0.99998915, z: 1.0000021}
+    - name: PantherLLegDigit02 1
+      parentName: PantherLLegDigit01 1
+      position: {x: -0.07378406, y: 0, z: 0}
+      rotation: {x: 0.00000003347546, y: -0.000000007681771, z: 0.46446723, w: 0.8855903}
+      scale: {x: 1.0000262, y: 0.99997777, z: 1.0000035}
+    - name: PantherLLegDigit21 1
+      parentName: PantherLLegPalm 1
+      position: {x: -0.06583477, y: -0.0019145202, z: -0.003561773}
+      rotation: {x: -0.3494686, y: 0.08733499, z: -0.5712649, w: 0.73749626}
+      scale: {x: 1.0000169, y: 0.9999888, z: 0.9999979}
+    - name: PantherLLegDigit22 1
+      parentName: PantherLLegDigit21 1
+      position: {x: -0.065722086, y: 0, z: 0}
+      rotation: {x: -0.030449638, y: 0.014082797, z: 0.30371422, w: 0.95217234}
+      scale: {x: 1.0000247, y: 0.9999842, z: 0.99999785}
+    - name: PantherRLegShoulderblade
+      parentName: PantherRibcage
+      position: {x: 0.031259917, y: 0.008335685, z: -0.053175658}
+      rotation: {x: 0.84300125, y: -0.47223827, z: 0.14366369, w: 0.21377736}
+      scale: {x: 0.9999998, y: 1.0000011, z: 1.0000002}
+    - name: PantherRLeg1 1
+      parentName: PantherRLegShoulderblade
+      position: {x: -0.17504951, y: -0.000000114440915, z: -0.00000034332274}
+      rotation: {x: -0.28611535, y: 0.09353697, z: 0.27460286, w: 0.91322625}
+      scale: {x: 0.9999999, y: 1, z: 1.0000001}
+    - name: PantherRLeg2 1
+      parentName: PantherRLeg1 1
+      position: {x: -0.20823753, y: -0.000000019073486, z: 0.000000038146972}
+      rotation: {x: -0.011824395, y: 0.0149127785, z: -0.04042103, w: 0.99900144}
+      scale: {x: 1.0000008, y: 1.0000008, z: 1.0000001}
+    - name: PantherRLegPalm 1
+      parentName: PantherRLeg2 1
+      position: {x: -0.22049639, y: 0, z: 0}
+      rotation: {x: -0.015643347, y: 0.0000052387536, z: -0.000010737647, w: 0.99987763}
+      scale: {x: 0.99999607, y: 1.0000044, z: 1.0000004}
+    - name: PantherRLegDigit11 1
+      parentName: PantherRLegPalm 1
+      position: {x: -0.06492359, y: -0.0072653387, z: 0.0012713814}
+      rotation: {x: 0.27689287, y: 0.023355398, z: -0.016854372, w: 0.96046907}
+      scale: {x: 0.99998933, y: 1.0000125, z: 1.0000014}
+    - name: PantherRLegDigit12 1
+      parentName: PantherRLegDigit11 1
+      position: {x: -0.07378409, y: -0.0000000047683715, z: 0.000000009536743}
+      rotation: {x: -0.000000049195684, y: 0.000000021916714, z: 0.53128403, w: 0.8471938}
+      scale: {x: 0.9999754, y: 1.0000292, z: 1.0000027}
+    - name: PantherRLegDigit21 1
+      parentName: PantherRLegPalm 1
+      position: {x: -0.06583426, y: -0.0019145012, z: 0.0035617638}
+      rotation: {x: 0.08155152, y: 0.12385543, z: -0.53442234, w: 0.832107}
+      scale: {x: 0.99998945, y: 1.0000106, z: 1.0000036}
+    - name: PantherRLegDigit22 1
+      parentName: PantherRLegDigit21 1
+      position: {x: -0.065721765, y: 0, z: 0}
+      rotation: {x: 0.030449433, y: -0.014082797, z: 0.3037059, w: 0.952175}
+      scale: {x: 0.9999842, y: 1.0000186, z: 1.0000045}
+    - name: PantherRLegDigit01 1
+      parentName: PantherRLegPalm 1
+      position: {x: -0.06655715, y: -0.0042197895, z: -0.008940362}
+      rotation: {x: -0.13744211, y: -0.007816265, z: -0.017448848, w: 0.9903253}
+      scale: {x: 0.9999939, y: 1.0000118, z: 0.99999785}
+    - name: PantherRLegDigit02 1
+      parentName: PantherRLegDigit01 1
+      position: {x: -0.07378422, y: 0.0000000047683715, z: 0.000000009536743}
+      rotation: {x: -0.000000053797343, y: 0.000000003071937, z: 0.46446106, w: 0.88559353}
+      scale: {x: 0.9999851, y: 1.0000237, z: 0.99999887}
+    - name: PantherNeck1
+      parentName: PantherRibcage
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.00067309104, y: -0.04222663, z: 0.19964914, w: 0.97895694}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: PantherNeck2
+      parentName: PantherNeck1
+      position: {x: -0.11495186, y: 0, z: 0.000000009536743}
+      rotation: {x: -0.008399446, y: -0.034474775, z: 0.24018638, w: 0.97007805}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: PantherNeck3
+      parentName: PantherNeck2
+      position: {x: -0.14949127, y: 0, z: 0}
+      rotation: {x: -0.067997485, y: 0.32095945, z: 0.30804202, w: 0.89301264}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: PantherNeck4
+      parentName: PantherNeck3
+      position: {x: -0.12246956, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.016713077, y: 0.09140363, z: 0.07138213, w: 0.9931116}
+      scale: {x: 0.9999999, y: 1.0000001, z: 1}
+    - name: PantherNeck5
+      parentName: PantherNeck4
+      position: {x: -0.11634613, y: 0.000000019073486, z: 0.0000000047683715}
+      rotation: {x: 0.042763665, y: 0.04185889, z: -0.02289481, w: 0.9979454}
+      scale: {x: 0.9999998, y: 1.0000001, z: 1.0000001}
+    - name: PantherHead
+      parentName: PantherNeck5
+      position: {x: -0.12264511, y: -0.000000038146972, z: 0}
+      rotation: {x: 0.07723368, y: 0.20171262, z: -0.5868582, w: 0.7803489}
+      scale: {x: 0.9999998, y: 1.0000001, z: 0.9999998}
+    - name: PantherHeadBone002
+      parentName: PantherHead
+      position: {x: 0.09114845, y: 0.031006163, z: -0.1828367}
+      rotation: {x: 0.7360434, y: 0.66463834, z: 0.088499546, w: -0.09307937}
+      scale: {x: 1.0000004, y: 1.0000006, z: 0.9999999}
+    - name: PantherHeadBone001Bone001 1
+      parentName: PantherHeadBone002
+      position: {x: -0.12659203, y: 0, z: -0.000000114440915}
+      rotation: {x: 0.000000044703473, y: -0.00000037252894, z: 0.038878553, w: 0.999244}
+      scale: {x: 1.0000005, y: 1.0000004, z: 1.0000001}
+    - name: PantherHeadBone001Bone001Bone001 1
+      parentName: PantherHeadBone001Bone001 1
+      position: {x: -0.12659203, y: 0, z: 0.000000038146972}
+      rotation: {x: 0.000000038086768, y: -0.000000544328, z: 0.038878586, w: 0.9992439}
+      scale: {x: 1.0000008, y: 1.0000007, z: 1.0000006}
+    - name: PantherHeadBone001Bone001Bone001Bone001 1
+      parentName: PantherHeadBone001Bone001Bone001 1
+      position: {x: -0.12659195, y: 0.000000038146972, z: 0}
+      rotation: {x: 0.000000006045734, y: -0.000000014393648, z: 0.094625086, w: 0.99551296}
+      scale: {x: 1.0000013, y: 1.0000013, z: 1.0000008}
+    - name: PantherHeadBone001
+      parentName: PantherHead
+      position: {x: 0.09114845, y: 0.031006316, z: 0.18283667}
+      rotation: {x: 0.72136074, y: 0.66439885, z: -0.052468125, w: -0.18830812}
+      scale: {x: 1.0000006, y: 1.0000004, z: 0.99999976}
+    - name: PantherHeadBone001Bone001
+      parentName: PantherHeadBone001
+      position: {x: -0.12659203, y: 0, z: 0}
+      rotation: {x: -0.000000089406925, y: 0.000000089406925, z: 0.038877618, w: 0.999244}
+      scale: {x: 1.0000008, y: 1.0000004, z: 0.9999997}
+    - name: PantherHeadBone001Bone001Bone001
+      parentName: PantherHeadBone001Bone001
+      position: {x: -0.1265921, y: 0, z: 0}
+      rotation: {x: 0.00000008549339, y: -0.00000039446041, z: 0.038878936, w: 0.9992439}
+      scale: {x: 1.0000014, y: 1.0000006, z: 1.0000002}
+    - name: PantherHeadBone001Bone001Bone001Bone001
+      parentName: PantherHeadBone001Bone001Bone001
+      position: {x: -0.12659195, y: 0, z: 0}
+      rotation: {x: 0.000000007861405, y: 0.000000015715525, z: 0.09462521, w: 0.99551296}
+      scale: {x: 1.0000026, y: 1.0000011, z: 1.0000002}
+    - name: PantherTail1
+      parentName: PantherPelvis
+      position: {x: 0.037326165, y: -0.024712982, z: 0}
+      rotation: {x: -0.00089362974, y: 0.0007399514, z: 0.96142566, w: 0.2750625}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.99999994}
+    - name: PantherTail2
+      parentName: PantherTail1
+      position: {x: -0.16493435, y: 0.000000038146972, z: 0}
+      rotation: {x: 0.0018244828, y: 0.0047258125, z: -0.0657147, w: 0.9978256}
+      scale: {x: 1.0000001, y: 1.0000004, z: 0.9999999}
+    - name: PantherTail3
+      parentName: PantherTail2
+      position: {x: -0.18720016, y: 0.000000076293944, z: 0.000000019073486}
+      rotation: {x: -0.00040560545, y: 0.003025966, z: -0.0593498, w: 0.9982326}
+      scale: {x: 1.0000006, y: 1.0000011, z: 1}
+    - name: PantherTail4
+      parentName: PantherTail3
+      position: {x: -0.18144424, y: -0.000000038146972, z: 0}
+      rotation: {x: -0.010218111, y: 0.0032793707, z: -0.17695025, w: 0.9841613}
+      scale: {x: 1.0000007, y: 1.0000014, z: 0.9999999}
+    - name: PantherTail5
+      parentName: PantherTail4
+      position: {x: -0.1932779, y: 0.000000076293944, z: -0.0000000023841857}
+      rotation: {x: -0.013601913, y: 0.007608652, z: -0.13235043, w: 0.99108046}
+      scale: {x: 1.0000018, y: 1.0000031, z: 0.99999976}
+    - name: PantherTail6
+      parentName: PantherTail5
+      position: {x: -0.19504394, y: -0.000000038146972, z: 0.0000000011920929}
+      rotation: {x: -0.01083536, y: 0.008128965, z: -0.15853503, w: 0.98726046}
+      scale: {x: 1.0000036, y: 1.0000066, z: 0.9999996}
+    - name: PantherTail7
+      parentName: PantherTail6
+      position: {x: -0.20357093, y: 0, z: 0.0000000023841857}
+      rotation: {x: -0.0037356783, y: 0.0026468865, z: -0.085865, w: 0.9962963}
+      scale: {x: 1.0000072, y: 1.0000128, z: 0.99999905}
+    - name: PantherLLeg1
+      parentName: PantherPelvis
+      position: {x: 0.021023732, y: 0.012200012, z: 0.06765629}
+      rotation: {x: 0.32047075, y: -0.91984737, z: -0.064607084, w: -0.216807}
+      scale: {x: 0.99999326, y: 1.0000075, z: 1}
+    - name: PantherLLeg2
+      parentName: PantherLLeg1
+      position: {x: -0.21147418, y: -0.00000019073485, z: -0.000000019073486}
+      rotation: {x: 0.0031229854, y: 0.005465024, z: 0.5925728, w: 0.8054923}
+      scale: {x: 0.9999583, y: 1.0000426, z: 1.0000001}
+    - name: PantherLLegPalm
+      parentName: PantherLLeg2
+      position: {x: -0.16741005, y: 0, z: 0}
+      rotation: {x: 0.015226321, y: 0.053951077, z: -0.33268672, w: 0.9413697}
+      scale: {x: 0.99988824, y: 1.000113, z: 1.0000004}
+    - name: PantherLLegDigit21
+      parentName: PantherLLegPalm
+      position: {x: -0.24505691, y: -0.00003124237, z: -0.0008711433}
+      rotation: {x: -0.050426867, y: 0.08034661, z: -0.46922716, w: 0.8779678}
+      scale: {x: 0.9997273, y: 1.000271, z: 1.0000044}
+    - name: PantherLLegDigit22
+      parentName: PantherLLegDigit21
+      position: {x: -0.0892156, y: 0, z: 0.000000009536743}
+      rotation: {x: -0.0000000073564768, y: 0.000000013099066, z: 0.37784025, w: 0.92587084}
+      scale: {x: 0.99956703, y: 1.0004578, z: 0.9999821}
+    - name: PantherLLegDigit01
+      parentName: PantherLLegPalm
+      position: {x: -0.2407871, y: -0.0017111206, z: 0.015110855}
+      rotation: {x: 0.052488744, y: -0.014982686, z: -0.47590715, w: 0.8778}
+      scale: {x: 0.9997286, y: 1.0002763, z: 0.9999982}
+    - name: PantherLLegDigit02
+      parentName: PantherLLegDigit01
+      position: {x: -0.116887145, y: 0.000000038146972, z: 0.000000009536743}
+      rotation: {x: 0.000000049784195, y: -0.000000015295756, z: 0.57151216, w: 0.8205936}
+      scale: {x: 0.99937373, y: 1.000615, z: 1.0000188}
+    - name: PantherLLegDigit11
+      parentName: PantherLLegPalm
+      position: {x: -0.24719426, y: -0.0025852583, z: 0.007412653}
+      rotation: {x: -0.012459144, y: 0.07420944, z: -0.90598935, w: 0.41655868}
+      scale: {x: 0.9997239, y: 1.0002776, z: 1.0000015}
+    - name: PantherLLegDigit12
+      parentName: PantherLLegDigit11
+      position: {x: -0.10293199, y: 0.000000019073486, z: -0.000000009536743}
+      rotation: {x: 0.00000003746416, y: -0.000000012037812, z: 0.4461518, w: 0.8949573}
+      scale: {x: 0.99949014, y: 1.0005106, z: 1.0000064}
+    - name: PantherLLegDigit31
+      parentName: PantherLLegPalm
+      position: {x: -0.24946351, y: -0.0033562088, z: -0.021190127}
+      rotation: {x: -0.074413784, y: 0.089177646, z: -0.47276258, w: 0.8735019}
+      scale: {x: 0.99972624, y: 1.0002723, z: 1.0000043}
+    - name: PantherLLegDigit32
+      parentName: PantherLLegDigit31
+      position: {x: -0.07371037, y: 0, z: 0}
+      rotation: {x: 0.00000004239633, y: -0.000000009444343, z: 0.31605962, w: 0.94873935}
+      scale: {x: 0.9996313, y: 1.0003978, z: 0.99997824}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 1
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

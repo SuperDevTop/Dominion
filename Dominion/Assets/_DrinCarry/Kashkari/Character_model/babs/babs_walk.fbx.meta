@@ -1,0 +1,468 @@
+fileFormatVersion: 2
+guid: de5b65411861f1044852954cf27b0704
+ModelImporter:
+  serializedVersion: 20300
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert10
+    second: {fileID: 2100000, guid: 21477a82084a0534ea8f61dcb1143aa2, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: walk
+      takeName: walk
+      internalID: -3419257869308726280
+      firstFrame: 0
+      lastFrame: 50
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: babs_walk(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: corp_4:Group2
+      parentName: babs_walk(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: corp_4:transform3
+      parentName: corp_4:Group2
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cloute_02:Group2
+      parentName: babs_walk(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: corp_4:transform2
+      parentName: cloute_02:Group2
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: eyes_01:Group2
+      parentName: babs_walk(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: corp_4:transform1
+      parentName: eyes_01:Group2
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Panther
+      parentName: babs_walk(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.5000001, y: -0.50000006, z: -0.4999999, w: 0.49999997}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PantherLLegPlatform
+      parentName: babs_walk(Clone)
+      position: {x: -0.2214147, y: 0.07802876, z: -0.6170219}
+      rotation: {x: 0.5642463, y: -0.42617616, z: -0.5642463, w: 0.42617616}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PantherRLegPlatform
+      parentName: babs_walk(Clone)
+      position: {x: 0.22141483, y: 0.032449447, z: -0.12606627}
+      rotation: {x: 0.4919014, y: -0.5079704, z: -0.49190053, w: 0.50796944}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PantherLLegPlatform 1
+      parentName: babs_walk(Clone)
+      position: {x: -0.18255384, y: 0.0043017743, z: 0.6579154}
+      rotation: {x: 0.4949944, y: -0.51116437, z: -0.48878798, w: 0.50475526}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: PantherRLegPlatform 1
+      parentName: babs_walk(Clone)
+      position: {x: 0.18094489, y: 0.052859187, z: 0.058624037}
+      rotation: {x: -0.56067604, y: 0.4234796, z: 0.5677941, w: -0.4288558}
+      scale: {x: 1, y: 1, z: 1}
+    - name: babs
+      parentName: babs_walk(Clone)
+      position: {x: -0.000000019073486, y: 0.7335585, z: 0.003292987}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.726045, y: 0.726045, z: 0.726045}
+    - name: PantherPelvis
+      parentName: babs_walk(Clone)
+      position: {x: 0.016542284, y: 0.60642636, z: -0.01742208}
+      rotation: {x: 0.5024702, y: -0.7417878, z: -0.30086643, w: 0.32673228}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1}
+    - name: PantherRLeg1
+      parentName: PantherPelvis
+      position: {x: 0.0275679, y: 0.015998688, z: -0.13801454}
+      rotation: {x: -0.09933953, y: 0.97865933, z: -0.120899186, w: -0.133195}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1.0000002}
+    - name: PantherRLeg2
+      parentName: PantherRLeg1
+      position: {x: -0.29878014, y: -0.00000020980835, z: 0.000000114440915}
+      rotation: {x: -0.029971141, y: -0.03629313, z: 0.4270587, w: 0.9029981}
+      scale: {x: 1.0000031, y: 0.99999624, z: 1.0000002}
+    - name: PantherRLegPalm
+      parentName: PantherRLeg2
+      position: {x: -0.19037813, y: 0, z: 0.000000019073486}
+      rotation: {x: 0.04326677, y: -0.038655818, z: -0.2659002, w: 0.962253}
+      scale: {x: 0.999983, y: 1.0000149, z: 1.0000002}
+    - name: PantherRLegDigit11
+      parentName: PantherRLegPalm
+      position: {x: -0.25129867, y: -0.00043260574, z: 0.0031522177}
+      rotation: {x: -0.04164993, y: -0.04796972, z: -0.98127866, w: 0.1818144}
+      scale: {x: 0.9999083, y: 1.0001354, z: 1.0000117}
+    - name: PantherRLegDigit12
+      parentName: PantherRLegDigit11
+      position: {x: -0.11665512, y: -0.00000029563904, z: 0.0000022125244}
+      rotation: {x: -0.0028215945, y: -0.005658049, z: 0.3795708, w: 0.9251411}
+      scale: {x: 0.999845, y: 1.000259, z: 1.0000204}
+    - name: PantherSpine1
+      parentName: PantherPelvis
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.000000011175871, y: 0.00000008940697, z: -0.102192715, w: 0.9947646}
+      scale: {x: 1.0000006, y: 1.0000004, z: 1.0000001}
+    - name: PantherSpine2
+      parentName: PantherSpine1
+      position: {x: -0.14644931, y: 0, z: 0}
+      rotation: {x: 0.0000000043802366, y: 0.000000029557874, z: -0.040749982, w: 0.9991694}
+      scale: {x: 1.0000005, y: 1.0000006, z: 1.0000001}
+    - name: PantherSpine3
+      parentName: PantherSpine2
+      position: {x: -0.14644931, y: 0, z: 0}
+      rotation: {x: -0.000000013182333, y: -0.000000031406785, z: -0.02490189, w: 0.99968994}
+      scale: {x: 1.0000002, y: 1.0000005, z: 1.0000001}
+    - name: PantherSpine4
+      parentName: PantherSpine3
+      position: {x: -0.14644933, y: -0.000000076293944, z: 0}
+      rotation: {x: -0.00000006146729, y: -0.00000002921115, z: -0.012289541, w: 0.9999245}
+      scale: {x: 0.9999998, y: 0.99999934, z: 0.9999994}
+    - name: PantherSpine5
+      parentName: PantherSpine4
+      position: {x: -0.14644933, y: -0.000000076293944, z: 0}
+      rotation: {x: 0.00000011175871, y: -0.000000063511834, z: 0.066590786, w: 0.9977804}
+      scale: {x: 0.99999994, y: 0.9999997, z: 1.0000002}
+    - name: PantherSpine6
+      parentName: PantherSpine5
+      position: {x: -0.14644933, y: 0, z: -0.0000000023841857}
+      rotation: {x: -0.000000059394683, y: -0.000000115258445, z: 0.008848578, w: 0.9999609}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000001}
+    - name: PantherRibcage
+      parentName: PantherSpine6
+      position: {x: -0.14644931, y: 0, z: -0.0000000047683715}
+      rotation: {x: 0.08830913, y: 0.1439471, z: 0.59813637, w: 0.7833988}
+      scale: {x: 0.9999986, y: 0.99999887, z: 1}
+    - name: PantherLLegShoulderblade
+      parentName: PantherRibcage
+      position: {x: 0.093753316, y: -0.008487625, z: 0.06972828}
+      rotation: {x: -0.669413, y: 0.6795868, z: 0.19483064, w: 0.22823022}
+      scale: {x: 0.999999, y: 1.0000004, z: 1.0000008}
+    - name: PantherLLeg1 1
+      parentName: PantherLLegShoulderblade
+      position: {x: -0.21600169, y: 0.00000019073485, z: 0.00000015258789}
+      rotation: {x: 0.0681197, y: 0.0071801217, z: 0.115667, w: 0.9909235}
+      scale: {x: 1.0000011, y: 1.0000012, z: 0.99999887}
+    - name: PantherLLeg2 1
+      parentName: PantherLLeg1 1
+      position: {x: -0.2623848, y: -0.0000005340576, z: -0.0000001335144}
+      rotation: {x: -0.009686964, y: -0.12038823, z: -0.011867798, w: 0.9926088}
+      scale: {x: 0.999991, y: 1.0000093, z: 1.0000001}
+    - name: PantherLLegPalm 1
+      parentName: PantherLLeg2 1
+      position: {x: -0.23598012, y: 0, z: 0.000000019073486}
+      rotation: {x: 0.009310473, y: 0.005090919, z: -0.046767537, w: 0.9988495}
+      scale: {x: 0.9999864, y: 1.000012, z: 1.0000008}
+    - name: PantherLLegDigit11 1
+      parentName: PantherLLegPalm 1
+      position: {x: -0.14157762, y: -0.009526672, z: -0.0016671371}
+      rotation: {x: -0.096786484, y: 0.016162204, z: -0.014086855, w: 0.9950743}
+      scale: {x: 0.9999395, y: 1.0000616, z: 1.0000005}
+    - name: PantherLLegDigit12 1
+      parentName: PantherLLegDigit11 1
+      position: {x: -0.116409525, y: 0, z: 0.000000009536743}
+      rotation: {x: 0.0000000372529, y: -0.000000119209275, z: 0.5312864, w: 0.8471922}
+      scale: {x: 0.9998899, y: 1.0001109, z: 1.0000019}
+    - name: PantherRLegShoulderblade
+      parentName: PantherRibcage
+      position: {x: 0.093753316, y: -0.008487472, z: -0.06972828}
+      rotation: {x: -0.6694397, y: 0.67957175, z: -0.1948249, w: -0.22820175}
+      scale: {x: 1.0000008, y: 0.99999964, z: 0.9999996}
+    - name: PantherRLeg1 1
+      parentName: PantherRLegShoulderblade
+      position: {x: -0.21600178, y: 0.000000038146972, z: -0.00000019073485}
+      rotation: {x: -0.031046001, y: -0.2987863, z: 0.122392684, w: 0.94592965}
+      scale: {x: 0.99999887, y: 0.9999998, z: 1.0000014}
+    - name: PantherRLeg2 1
+      parentName: PantherRLeg1 1
+      position: {x: -0.26238483, y: -0.00000061035155, z: 0.0000001335144}
+      rotation: {x: 0.0009788625, y: -0.012527253, z: -0.07244921, w: 0.99729294}
+      scale: {x: 1.0000099, y: 0.9999913, z: 1.0000002}
+    - name: PantherRLegPalm 1
+      parentName: PantherRLeg2 1
+      position: {x: -0.23598011, y: 0.000000019073486, z: 0}
+      rotation: {x: -0.006373241, y: -0.056048445, z: -0.5592723, w: 0.8270626}
+      scale: {x: 1.0000138, y: 0.9999887, z: 0.9999992}
+    - name: PantherRLegDigit11 1
+      parentName: PantherRLegPalm 1
+      position: {x: -0.14158142, y: -0.009526293, z: 0.0016670418}
+      rotation: {x: 0.03323281, y: 0.071577854, z: -0.7387908, w: 0.66929847}
+      scale: {x: 1.0000911, y: 0.99995434, z: 1.000002}
+    - name: PantherRLegDigit12 1
+      parentName: PantherRLegDigit11 1
+      position: {x: -0.11640887, y: 0.00000009059906, z: 0.0000002670288}
+      rotation: {x: -0.00000001862645, y: 0.0000000074505797, z: 0.53128695, w: 0.84719193}
+      scale: {x: 1.0001805, y: 0.9999112, z: 1.000006}
+    - name: PantherNeck1
+      parentName: PantherRibcage
+      position: {x: 0.197682, y: -0.027044296, z: 0.000000038146972}
+      rotation: {x: 0.0000009020535, y: 0.0000050977105, z: 0.31423736, w: 0.9493445}
+      scale: {x: 1, y: 0.9999999, z: 1.0000001}
+    - name: PantherNeck2
+      parentName: PantherNeck1
+      position: {x: -0.13745369, y: 0.000000076293944, z: 0}
+      rotation: {x: -0.0000015497205, y: -0.0000037476416, z: 0.20905349, w: 0.9779042}
+      scale: {x: 1.000004, y: 0.9999954, z: 1.000001}
+    - name: PantherNeck3
+      parentName: PantherNeck2
+      position: {x: -0.12523612, y: 0, z: 0}
+      rotation: {x: -0.046502337, y: 0.29376245, z: -0.12919769, w: -0.94596463}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1}
+    - name: PantherNeck4
+      parentName: PantherNeck3
+      position: {x: -0.08913284, y: 0.000000019073486, z: 0}
+      rotation: {x: 0.010343899, y: 0.11480873, z: -0.05593163, w: -0.9917578}
+      scale: {x: 1.000001, y: 0.9999997, z: 1.0000002}
+    - name: PantherNeck5
+      parentName: PantherNeck4
+      position: {x: -0.089349136, y: 0, z: 0}
+      rotation: {x: 0.0000041872263, y: -0.00000020861626, z: 0.13856083, w: -0.99035394}
+      scale: {x: 1.0000017, y: 0.99999976, z: 1.0000004}
+    - name: PantherHead
+      parentName: PantherNeck5
+      position: {x: -0.08934898, y: 0, z: 0.0000000023841857}
+      rotation: {x: 0.37263387, y: -0.31344828, z: 0.4437543, w: -0.752314}
+      scale: {x: 0.999999, y: 0.99999815, z: 0.9999991}
+    - name: PantherHeadBone002
+      parentName: PantherHead
+      position: {x: -0.04392452, y: -0.06280243, z: -0.1436866}
+      rotation: {x: -0.027972767, y: 0.6746814, z: 0.011230103, w: -0.73749334}
+      scale: {x: 1.0000005, y: 1, z: 1.0000006}
+    - name: PantherHeadBone001Bone001 1
+      parentName: PantherHeadBone002
+      position: {x: -0.09439211, y: 0, z: 0.000000038146972}
+      rotation: {x: 0.017031668, y: 0.000088781075, z: -0.059400275, w: 0.99808896}
+      scale: {x: 1.0000001, y: 1.0000002, z: 0.9999999}
+    - name: PantherHeadBone001Bone001Bone001 1
+      parentName: PantherHeadBone001Bone001 1
+      position: {x: -0.09439201, y: 0, z: 0}
+      rotation: {x: 0.004009306, y: 0.00005464577, z: -0.03631222, w: 0.9993324}
+      scale: {x: 0.99999994, y: 1.0000004, z: 0.99999964}
+    - name: PantherHeadBone001Bone001Bone001Bone001 1
+      parentName: PantherHeadBone001Bone001Bone001 1
+      position: {x: -0.09439209, y: 0, z: -0.000000076293944}
+      rotation: {x: -0.000000022817403, y: -0.000000018117134, z: 0.00000005857322,
+        w: 1}
+      scale: {x: 1.0000004, y: 1.0000004, z: 0.99999976}
+    - name: PantherHeadBone001Bone001Bone001Bone001Bone001 1
+      parentName: PantherHeadBone001Bone001Bone001Bone001 1
+      position: {x: -0.09439209, y: 0, z: 0.000000038146972}
+      rotation: {x: 9.3132246e-10, y: -0.0000000018626449, z: 0.00000002251181, w: 1}
+      scale: {x: 1.0000004, y: 0.99999994, z: 0.9999999}
+    - name: PantherHeadBone001
+      parentName: PantherHead
+      position: {x: -0.04392456, y: -0.06280258, z: 0.1436866}
+      rotation: {x: -0.03692337, y: 0.6963569, z: -0.00000002436166, w: 0.7167453}
+      scale: {x: 1.0000002, y: 0.99999994, z: 1.0000012}
+    - name: PantherHeadBone001Bone001
+      parentName: PantherHeadBone001
+      position: {x: -0.094392106, y: 0, z: 0}
+      rotation: {x: -0.014487023, y: -0.0007680948, z: -0.52834916, w: 0.8489033}
+      scale: {x: 1.0000007, y: 1.0000008, z: 1.000001}
+    - name: PantherHeadBone001Bone001Bone001
+      parentName: PantherHeadBone001Bone001
+      position: {x: -0.09439209, y: 0, z: -0.000000038146972}
+      rotation: {x: -0.0039696572, y: -0.00021046972, z: -0.14478084, w: 0.9894558}
+      scale: {x: 0.99999934, y: 1.0000005, z: 0.9999997}
+    - name: PantherHeadBone001Bone001Bone001Bone001
+      parentName: PantherHeadBone001Bone001Bone001
+      position: {x: -0.09439209, y: -0.000000038146972, z: 0.000000038146972}
+      rotation: {x: -0, y: 5.8207633e-11, z: -0.0000000010280128, w: 1}
+      scale: {x: 1.0000006, y: 1.0000011, z: 1.0000001}
+    - name: PantherHeadBone001Bone001Bone001Bone001Bone001
+      parentName: PantherHeadBone001Bone001Bone001Bone001
+      position: {x: -0.094392166, y: 0.000000038146972, z: 0}
+      rotation: {x: -0, y: 0.0000000018626451, z: -0, w: 1}
+      scale: {x: 1.0000006, y: 1.0000007, z: 0.9999983}
+    - name: PantherTail1
+      parentName: PantherPelvis
+      position: {x: 0.048945177, y: -0.032405548, z: -0.0000000018428272}
+      rotation: {x: 0.000000029802319, y: -0.00000013411044, z: 0.8236042, w: 0.5671649}
+      scale: {x: 1.0000004, y: 0.9999999, z: 1.0000001}
+    - name: PantherTail2
+      parentName: PantherTail1
+      position: {x: -0.073696285, y: 0, z: 0}
+      rotation: {x: -0.00000005960465, y: 0.0000001192093, z: -0.048076127, w: 0.9988437}
+      scale: {x: 1.0000002, y: 1.0000001, z: 0.9999998}
+    - name: PantherTail3
+      parentName: PantherTail2
+      position: {x: -0.07793747, y: 0.000000038146972, z: 9.094947e-15}
+      rotation: {x: 0.000000029802322, y: -0.000000029802322, z: 0.014509305, w: 0.99989474}
+      scale: {x: 1, y: 1.0000004, z: 1.0000001}
+    - name: PantherTail4
+      parentName: PantherTail3
+      position: {x: -0.089881666, y: 0.000000038146972, z: 0}
+      rotation: {x: -0.000000029802322, y: 0.00000008940697, z: 0.01865232, w: 0.9998261}
+      scale: {x: 1.0000001, y: 1.0000007, z: 0.9999999}
+    - name: PantherTail5
+      parentName: PantherTail4
+      position: {x: -0.07397751, y: 0, z: -4.5474732e-14}
+      rotation: {x: 0.000000014901159, y: -0.000000059604638, z: 0.109906, w: 0.993942}
+      scale: {x: 0.9999997, y: 1.0000013, z: 0.9999998}
+    - name: PantherTail6
+      parentName: PantherTail5
+      position: {x: -0.07422271, y: -0.000000076293944, z: -9.094947e-15}
+      rotation: {x: -0.000000029802322, y: 0.000000029802322, z: 0.26553535, w: 0.9641012}
+      scale: {x: 0.99999934, y: 1.0000027, z: 0.9999998}
+    - name: PantherTail7
+      parentName: PantherTail6
+      position: {x: -0.06991714, y: 0, z: 1.8189894e-14}
+      rotation: {x: 0.000000067055225, y: -0.000000029802322, z: 0.25534067, w: 0.96685123}
+      scale: {x: 0.9999998, y: 1.0000046, z: 0.99999934}
+    - name: PantherLLeg1
+      parentName: PantherPelvis
+      position: {x: 0.0275679, y: 0.015998688, z: 0.13801454}
+      rotation: {x: -0.11491665, y: 0.9909751, z: 0.0689431, w: 0.003075868}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000001}
+    - name: PantherLLeg2
+      parentName: PantherLLeg1
+      position: {x: -0.29878008, y: -0.0000001335144, z: -0.00000019073485}
+      rotation: {x: 0.029973183, y: 0.036294002, z: 0.42705512, w: 0.90299964}
+      scale: {x: 0.9999962, y: 1.0000043, z: 1}
+    - name: PantherLLegPalm
+      parentName: PantherLLeg2
+      position: {x: -0.1903782, y: 0, z: -0.000000019073486}
+      rotation: {x: -0.047794804, y: 0.024540938, z: -0.26525337, w: 0.9626807}
+      scale: {x: 1.0000196, y: 0.9999805, z: 1}
+    - name: PantherLLegDigit11
+      parentName: PantherLLegPalm
+      position: {x: -0.25130394, y: -0.00044059753, z: -0.0031492233}
+      rotation: {x: 0.12666145, y: 0.055261374, z: -0.9711532, w: 0.19433075}
+      scale: {x: 1.0001243, y: 0.99992627, z: 1.0000033}
+    - name: PantherLLegDigit12
+      parentName: PantherLLegDigit11
+      position: {x: -0.11664558, y: -0.0000020599364, z: 0.0000023651123}
+      rotation: {x: 0.0028207225, y: 0.0056567374, z: 0.3795702, w: 0.92514133}
+      scale: {x: 1.0002531, y: 1.0001009, z: 1.0000218}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 1
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

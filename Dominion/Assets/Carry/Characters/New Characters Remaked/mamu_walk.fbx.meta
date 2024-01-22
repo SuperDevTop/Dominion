@@ -1,0 +1,642 @@
+fileFormatVersion: 2
+guid: 7eccaf4babd70d148a8cfc91ada91850
+ModelImporter:
+  serializedVersion: 20300
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: walk
+      takeName: walk
+      internalID: -3419257869308726280
+      firstFrame: 0
+      lastFrame: 200
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: mamu_walk(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Text001
+      parentName: mamu_walk(Clone)
+      position: {x: -0, y: -0.2871454, z: -0.000000012551524}
+      rotation: {x: 0.00000008146034, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lizard
+      parentName: mamu_walk(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.5000001, y: -0.50000006, z: -0.4999999, w: 0.49999997}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LizardLLegPlatform
+      parentName: mamu_walk(Clone)
+      position: {x: -0.25278375, y: 0.018804137, z: -0.32855323}
+      rotation: {x: 0.79642403, y: -0.60154045, z: -0.049562935, w: 0.037434947}
+      scale: {x: 0.9999999, y: 0.99999994, z: 0.99999994}
+    - name: LizardRRearLegPlatform
+      parentName: mamu_walk(Clone)
+      position: {x: 0.25014734, y: 0.0022093605, z: 0.10748241}
+      rotation: {x: 0.043208692, y: -0.044620186, z: -0.6943099, w: 0.7169908}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LizardLFrontLegPlatform
+      parentName: mamu_walk(Clone)
+      position: {x: -0.35467544, y: 0.0016029372, z: 0.6848333}
+      rotation: {x: -0.52752066, y: 0.54475325, z: 0.45349208, w: -0.4683063}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: LizardRFrontLegPlatform
+      parentName: mamu_walk(Clone)
+      position: {x: 0.35496455, y: 0.013642031, z: 0.25037417}
+      rotation: {x: -0.5201891, y: 0.39289972, z: 0.60510415, w: -0.45703617}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.99999994}
+    - name: corp_4:Group2
+      parentName: mamu_walk(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cloute_02:transform2
+      parentName: corp_4:Group2
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cloute_02:Group2
+      parentName: mamu_walk(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cloute_02:transform3
+      parentName: cloute_02:Group2
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: eyes_01:Group2
+      parentName: mamu_walk(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cloute_02:transform1
+      parentName: eyes_01:Group2
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cloute_02:Group3
+      parentName: mamu_walk(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.576269, y: 0.576269, z: 0.576269}
+    - name: LizardPelvis
+      parentName: mamu_walk(Clone)
+      position: {x: 0.000000048364498, y: 0.34598282, z: 0.017391704}
+      rotation: {x: 0.4854496, y: -0.5145768, z: -0.48501232, w: 0.51411325}
+      scale: {x: 1.0000001, y: 1.0000005, z: 1.0000002}
+    - name: LizardSpine1
+      parentName: LizardPelvis
+      position: {x: -0.024562176, y: -0.002550087, z: -0.0000000047683715}
+      rotation: {x: -0.000000048428774, y: 0.00000036053825, z: 0.05054953, w: 0.9987216}
+      scale: {x: 1, y: 0.9999998, z: 1}
+    - name: LizardSpine2
+      parentName: LizardSpine1
+      position: {x: -0.07032987, y: 0, z: 0.0000000011920929}
+      rotation: {x: -0.00000007371635, y: 0.0000003030654, z: 0.09114427, w: 0.99583775}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000002}
+    - name: LizardSpine3
+      parentName: LizardSpine2
+      position: {x: -0.07032988, y: 0.000000038146972, z: 0}
+      rotation: {x: -0.011101349, y: -0.039786883, z: 0.07602918, w: 0.9962497}
+      scale: {x: 0.99999976, y: 0.99999994, z: 0.99999976}
+    - name: LizardSpine4
+      parentName: LizardSpine3
+      position: {x: -0.07032985, y: 0, z: 0}
+      rotation: {x: 0.015143469, y: 0.038430866, z: 0.027069004, w: 0.9987798}
+      scale: {x: 0.99999976, y: 1.0000005, z: 0.99999994}
+    - name: LizardSpine5
+      parentName: LizardSpine4
+      position: {x: -0.07032985, y: 0.000000019073486, z: 0}
+      rotation: {x: 0.000000014901161, y: -0.00000015646219, z: -0.0038986907, w: 0.99999243}
+      scale: {x: 1.0000002, y: 1, z: 1}
+    - name: LizardSpine6
+      parentName: LizardSpine5
+      position: {x: -0.0703299, y: 0, z: 0}
+      rotation: {x: -0.016693564, y: -0.014520188, z: -0.069031596, w: 0.9973691}
+      scale: {x: 0.99999994, y: 1.0000001, z: 0.9999999}
+    - name: LizardRibcage
+      parentName: LizardSpine6
+      position: {x: -0.07032985, y: 0, z: 0.000000009536743}
+      rotation: {x: -0.010078194, y: 0.003051344, z: -0.056024153, w: 0.9983739}
+      scale: {x: 1.0000008, y: 1, z: 1.0000004}
+    - name: LizardLFrontLegCollarbone
+      parentName: LizardRibcage
+      position: {x: 0.04825443, y: 0.06359894, z: 0.0103736585}
+      rotation: {x: 0.037951082, y: 0.63069636, z: 0.101373084, w: 0.76844347}
+      scale: {x: 1.0000006, y: 1.0000014, z: 1.0000002}
+    - name: LizardLFrontLegUpper
+      parentName: LizardLFrontLegCollarbone
+      position: {x: -0.21347415, y: -0.000000038146972, z: -0.000000114440915}
+      rotation: {x: -0.53457594, y: 0.15306188, z: 0.0005388444, w: 0.831144}
+      scale: {x: 1.0000004, y: 1.0000015, z: 0.9999984}
+    - name: LizardLFrontLegLower
+      parentName: LizardLFrontLegUpper
+      position: {x: -0.2346896, y: 0, z: -0.00000015258789}
+      rotation: {x: 0.19061977, y: -0.010412776, z: -0.019343432, w: 0.98141813}
+      scale: {x: 1.0000037, y: 1.0000001, z: 0.99999785}
+    - name: LizardLFrontLegPalm1
+      parentName: LizardLFrontLegLower
+      position: {x: -0.25276285, y: 0.000000076293944, z: 0.00000015258789}
+      rotation: {x: 0.3714478, y: 0.19822784, z: -0.13020295, w: 0.8976522}
+      scale: {x: 1.0000026, y: 1.000004, z: 0.99999684}
+    - name: LizardLFrontLegPalm2
+      parentName: LizardLFrontLegPalm1
+      position: {x: -0.092648216, y: 0, z: -0.000000038146972}
+      rotation: {x: -0.5223773, y: -0.3993894, z: -0.2611167, w: 0.70670235}
+      scale: {x: 1.0000069, y: 1.000002, z: 0.99999195}
+    - name: LizardLFrontLegDigit21
+      parentName: LizardLFrontLegPalm2
+      position: {x: -0.03916725, y: -0.0031297777, z: 0.0099855615}
+      rotation: {x: 0.12006816, y: 0.17114653, z: 0.25662014, w: 0.94363064}
+      scale: {x: 1.0000075, y: 1.000004, z: 0.9999957}
+    - name: LizardLFrontLegDigit22
+      parentName: LizardLFrontLegDigit21
+      position: {x: -0.063759305, y: 0, z: -0.000000038146972}
+      rotation: {x: -0.032489676, y: 0.0019011332, z: 0.034201525, w: 0.9988849}
+      scale: {x: 1.0000142, y: 1.0000101, z: 0.99999005}
+    - name: LizardLFrontLegDigit23
+      parentName: LizardLFrontLegDigit22
+      position: {x: -0.039630737, y: 0, z: 0}
+      rotation: {x: -0.0000000018626451, y: 0.0000000018626451, z: 0.13052621, w: 0.9914449}
+      scale: {x: 1.0000242, y: 1.0000232, z: 0.9999827}
+    - name: LizardLFrontLegDigit41
+      parentName: LizardLFrontLegPalm2
+      position: {x: -0.017745743, y: 0.009326069, z: -0.02270296}
+      rotation: {x: 0.077033505, y: -0.5642885, z: -0.04937463, w: 0.8204916}
+      scale: {x: 1.0000172, y: 1.0000052, z: 0.9999851}
+    - name: LizardLFrontLegDigit42
+      parentName: LizardLFrontLegDigit41
+      position: {x: -0.055839766, y: 0, z: 0.000000076293944}
+      rotation: {x: -0.07158713, y: 0.5437574, z: 0.46514404, w: 0.69487}
+      scale: {x: 1.00001, y: 1.0000138, z: 0.99999124}
+    - name: LizardLFrontLegDigit43
+      parentName: LizardLFrontLegDigit42
+      position: {x: -0.037226446, y: -0.000000019073486, z: 0}
+      rotation: {x: -0.0000000074505815, y: 0.000000022351744, z: 0.13052624, w: 0.9914449}
+      scale: {x: 1.0000241, y: 1.0000237, z: 0.9999828}
+    - name: LizardLFrontLegDigit11
+      parentName: LizardLFrontLegPalm2
+      position: {x: -0.05110954, y: 0.00085145474, z: 0.027117481}
+      rotation: {x: 0.10645424, y: 0.39433458, z: -0.0084907925, w: 0.91274077}
+      scale: {x: 1.0000101, y: 1.0000044, z: 0.99999344}
+    - name: LizardLFrontLegDigit12
+      parentName: LizardLFrontLegDigit11
+      position: {x: -0.05153202, y: 0.000000009536743, z: 0.000000076293944}
+      rotation: {x: 0.000000044703473, y: 0.000000029802315, z: 0.17793773, w: 0.98404175}
+      scale: {x: 1.0000098, y: 1.0000141, z: 0.99999094}
+    - name: LizardLFrontLegDigit13
+      parentName: LizardLFrontLegDigit12
+      position: {x: -0.042931173, y: 0, z: 0.000000076293944}
+      rotation: {x: 0.00000009372712, y: -0.00000013190184, z: 0.13052608, w: 0.99144495}
+      scale: {x: 1.0000246, y: 1.0000247, z: 0.9999814}
+    - name: LizardLFrontLegDigit01
+      parentName: LizardLFrontLegPalm2
+      position: {x: -0.012565536, y: -0.007902532, z: 0.031424426}
+      rotation: {x: 0.29629183, y: 0.3185057, z: 0.23808756, w: 0.8683776}
+      scale: {x: 1.0000167, y: 1.0000051, z: 0.9999864}
+    - name: LizardLFrontLegDigit02
+      parentName: LizardLFrontLegDigit01
+      position: {x: -0.084083706, y: 0.0000000047683715, z: -0.000000076293944}
+      rotation: {x: 0.0000006854529, y: 0.0000000894069, z: 0.037047815, w: 0.9993135}
+      scale: {x: 1.000012, y: 1.0000112, z: 0.999992}
+    - name: LizardLFrontLegDigit03
+      parentName: LizardLFrontLegDigit02
+      position: {x: -0.047948703, y: -0.000000009536743, z: 0}
+      rotation: {x: -0.000000009342169, y: 0.000000016646206, z: 0.13052614, w: 0.9914449}
+      scale: {x: 1.0000232, y: 1.0000242, z: 0.9999837}
+    - name: LizardNeck1
+      parentName: LizardRibcage
+      position: {x: -0.024562225, y: -0.0025500106, z: -0.0000000047683715}
+      rotation: {x: 0.025301993, y: 0.01251756, z: 0.09282891, w: 0.9952819}
+      scale: {x: 0.9999998, y: 1.0000001, z: 0.99999994}
+    - name: LizardNeck2
+      parentName: LizardNeck1
+      position: {x: -0.096033245, y: 0, z: 0}
+      rotation: {x: 0.00000014901161, y: 0.000000074505806, z: 0.38356286, w: 0.9235148}
+      scale: {x: 1.0000006, y: 1.0000007, z: 1.0000004}
+    - name: LizardNeck3
+      parentName: LizardNeck2
+      position: {x: -0.09603328, y: 0.000000038146972, z: 0}
+      rotation: {x: 0.00000006039754, y: 0.0000000063885537, z: 0.092897624, w: 0.99567574}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000002}
+    - name: LizardNeck4
+      parentName: LizardNeck3
+      position: {x: -0.09603328, y: -0.000000076293944, z: -0.000000009536743}
+      rotation: {x: 0.03349869, y: 0.07243175, z: -0.18317537, w: 0.9798358}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: LizardNeck5
+      parentName: LizardNeck4
+      position: {x: -0.09603332, y: 0.000000038146972, z: -0.000000007152557}
+      rotation: {x: 0.104578406, y: 0.10115955, z: -0.41982785, w: 0.8958653}
+      scale: {x: 0.9999999, y: 1.0000001, z: 1}
+    - name: LizardHead
+      parentName: LizardNeck5
+      position: {x: -0.096033245, y: 0, z: 0.000000009536743}
+      rotation: {x: 0.061319463, y: -0.1898394, z: -0.31626028, w: 0.92745906}
+      scale: {x: 0.9999996, y: 0.99999994, z: 1.0000002}
+    - name: LizardRFrontLegCollarbone
+      parentName: LizardRibcage
+      position: {x: 0.04825443, y: 0.06359894, z: -0.010373649}
+      rotation: {x: -0.002028711, y: 0.6118037, z: -0.07203612, w: -0.78772014}
+      scale: {x: 1.0000001, y: 1.0000011, z: 1.0000007}
+    - name: LizardRFrontLegUpper
+      parentName: LizardRFrontLegCollarbone
+      position: {x: -0.2134742, y: -0.000000095367426, z: 0.000000038146972}
+      rotation: {x: 0.53442365, y: -0.15229172, z: 0.0010200116, w: 0.83138305}
+      scale: {x: 0.9999984, y: 1.0000014, z: 1.0000006}
+    - name: LizardRFrontLegLower
+      parentName: LizardRFrontLegUpper
+      position: {x: -0.2346896, y: 0.000000009536743, z: 0.000000076293944}
+      rotation: {x: -0.1906588, y: 0.010379039, z: -0.019315923, w: 0.98141146}
+      scale: {x: 0.9999933, y: 1.0000054, z: 1.0000027}
+    - name: LizardRFrontLegPalm1
+      parentName: LizardRFrontLegLower
+      position: {x: -0.25276282, y: -0.000000028610229, z: -0.0000003814697}
+      rotation: {x: -0.37139878, y: -0.19818048, z: -0.13050292, w: 0.8976394}
+      scale: {x: 0.9999962, y: 1.000006, z: 1.0000021}
+    - name: LizardRFrontLegPalm2
+      parentName: LizardRFrontLegPalm1
+      position: {x: -0.09264824, y: 0.000000038146972, z: -0.000000038146972}
+      rotation: {x: 0.52267736, y: 0.39978972, z: -0.26024687, w: 0.706575}
+      scale: {x: 0.9999893, y: 1.0000099, z: 0.99999934}
+    - name: LizardRFrontLegDigit01
+      parentName: LizardRFrontLegPalm2
+      position: {x: -0.012565631, y: -0.007902537, z: -0.031424332}
+      rotation: {x: -0.29662398, y: -0.31893122, z: 0.23756921, w: 0.86825}
+      scale: {x: 0.99998075, y: 1.0000068, z: 1.000019}
+    - name: LizardRFrontLegDigit02
+      parentName: LizardRFrontLegDigit01
+      position: {x: -0.08408373, y: 0, z: 0}
+      rotation: {x: 0.0000010728827, y: -0.000000059604595, z: 0.037039362, w: 0.9993139}
+      scale: {x: 0.9999847, y: 1.0000167, z: 1.0000119}
+    - name: LizardRFrontLegDigit03
+      parentName: LizardRFrontLegDigit02
+      position: {x: -0.04794874, y: -0.000000009536743, z: 0}
+      rotation: {x: -0.0000000061761787, y: 0.0000000052032223, z: 0.13052613, w: 0.9914449}
+      scale: {x: 0.9999635, y: 1.0000391, z: 1.0000237}
+    - name: LizardRFrontLegDigit11
+      parentName: LizardRFrontLegPalm2
+      position: {x: -0.051109638, y: 0.00085144996, z: -0.027117405}
+      rotation: {x: -0.10658327, y: -0.39502025, z: -0.00888795, w: 0.9124254}
+      scale: {x: 0.99998826, y: 1.000008, z: 1.0000103}
+    - name: LizardRFrontLegDigit12
+      parentName: LizardRFrontLegDigit11
+      position: {x: -0.051532034, y: 0.0000000047683715, z: 0}
+      rotation: {x: 0.0000000372529, y: -0.000000029802319, z: 0.17793769, w: 0.9840418}
+      scale: {x: 0.9999875, y: 1.0000151, z: 1.0000104}
+    - name: LizardRFrontLegDigit13
+      parentName: LizardRFrontLegDigit12
+      position: {x: -0.04293122, y: 0.0000000047683715, z: 0}
+      rotation: {x: -0.000000089567266, y: -0.00000010026442, z: 0.13052608, w: 0.9914449}
+      scale: {x: 0.9999653, y: 1.0000397, z: 1.0000217}
+    - name: LizardRFrontLegDigit21
+      parentName: LizardRFrontLegPalm2
+      position: {x: -0.039167423, y: -0.0031297826, z: -0.009985504}
+      rotation: {x: -0.12032726, y: -0.17170542, z: 0.25616828, w: 0.94361883}
+      scale: {x: 0.9999919, y: 1.000011, z: 1.0000033}
+    - name: LizardRFrontLegDigit22
+      parentName: LizardRFrontLegDigit21
+      position: {x: -0.06375927, y: 0, z: 0.000000019073486}
+      rotation: {x: 0.032491587, y: -0.0018970348, z: 0.034196135, w: 0.99888504}
+      scale: {x: 0.99998206, y: 1.0000205, z: 1.0000101}
+    - name: LizardRFrontLegDigit23
+      parentName: LizardRFrontLegDigit22
+      position: {x: -0.039630756, y: 0, z: -0.000000019073486}
+      rotation: {x: -0.000000013038516, y: -9.313226e-10, z: 0.1305262, w: 0.9914449}
+      scale: {x: 0.9999624, y: 1.0000422, z: 1.0000222}
+    - name: LizardRFrontLegDigit41
+      parentName: LizardRFrontLegPalm2
+      position: {x: -0.017745914, y: 0.009326076, z: 0.022702903}
+      rotation: {x: -0.07680129, y: 0.5636649, z: -0.04971724, w: 0.8209212}
+      scale: {x: 0.9999798, y: 1.0000095, z: 1.0000173}
+    - name: LizardRFrontLegDigit42
+      parentName: LizardRFrontLegDigit41
+      position: {x: -0.05583969, y: -0.000000009536743, z: -0.000000009536743}
+      rotation: {x: 0.07158483, y: -0.5437012, z: 0.46503612, w: 0.6949864}
+      scale: {x: 0.9999853, y: 1.0000182, z: 1.0000105}
+    - name: LizardRFrontLegDigit43
+      parentName: LizardRFrontLegDigit42
+      position: {x: -0.037226524, y: 0.000000019073486, z: -0.000000009536743}
+      rotation: {x: 0.000000005587935, y: -0.0000000074505797, z: 0.13052623, w: 0.9914448}
+      scale: {x: 0.9999716, y: 1.0000327, z: 1.0000217}
+    - name: LizardTail1
+      parentName: LizardPelvis
+      position: {x: 0.03756154, y: 0.0140054505, z: 0.000000013113022}
+      rotation: {x: 0.000000029802322, y: 0.00000009126961, z: 0.999879, w: 0.01555912}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1.0000002}
+    - name: LizardTail2
+      parentName: LizardTail1
+      position: {x: -0.1887352, y: -0.000000019073486, z: 0.0000000011920929}
+      rotation: {x: -0.000000070314854, y: -0.000000029802322, z: -0.20201479, w: 0.9793825}
+      scale: {x: 0.9999999, y: 1.0000002, z: 1}
+    - name: LizardTail3
+      parentName: LizardTail2
+      position: {x: -0.1887352, y: 0.000000019073486, z: 0.0000000023841857}
+      rotation: {x: 0.000000044703484, y: 0.000000029802322, z: -0.19474661, w: 0.9808537}
+      scale: {x: 1.0000007, y: 1.0000008, z: 1.000001}
+    - name: LizardTail4
+      parentName: LizardTail3
+      position: {x: -0.1887352, y: 0, z: 0.000000009536743}
+      rotation: {x: -0.000000016011542, y: -0.00000013609898, z: -0.2755881, w: 0.9612758}
+      scale: {x: 0.99999994, y: 1.0000021, z: 1.0000014}
+    - name: LizardTail5
+      parentName: LizardTail4
+      position: {x: -0.1887352, y: 0, z: 0}
+      rotation: {x: 0.00000033228497, y: 0.00000006149136, z: -0.24441315, w: 0.9696712}
+      scale: {x: 1.0000005, y: 1.0000043, z: 1.0000031}
+    - name: LizardTail6
+      parentName: LizardTail5
+      position: {x: -0.13270633, y: 0, z: 0.0000000047683715}
+      rotation: {x: 0.00000039311706, y: 0.00000033305486, z: 0.23739052, w: -0.9714143}
+      scale: {x: 1.0000012, y: 1.000009, z: 1.0000058}
+    - name: LizardTail7
+      parentName: LizardTail6
+      position: {x: -0.11368427, y: 0, z: 0}
+      rotation: {x: -0.00000014148247, y: 0.0000000648936, z: -0.2782281, w: 0.9605151}
+      scale: {x: 1.0000012, y: 1.0000176, z: 1.0000108}
+    - name: LizardTail8
+      parentName: LizardTail7
+      position: {x: -0.119324036, y: 0, z: 0}
+      rotation: {x: -0, y: 0.00000006589107, z: -0.17641151, w: 0.9843165}
+      scale: {x: 1.0000122, y: 1.0000226, z: 1.0000211}
+    - name: LizardLLegThigh
+      parentName: LizardPelvis
+      position: {x: -0.0010122776, y: -0.01736225, z: 0.10550452}
+      rotation: {x: -0.094070554, y: 0.64100903, z: 0.76067644, w: 0.04036687}
+      scale: {x: 1.0000019, y: 1.0000006, z: 0.999998}
+    - name: LizardLLegCalf
+      parentName: LizardLLegThigh
+      position: {x: -0.20749919, y: -0.000000014305114, z: -0.000000076293944}
+      rotation: {x: -0.57526076, y: -0.1268426, z: 0.09361748, w: 0.8026343}
+      scale: {x: 1.0000175, y: 1.0000006, z: 0.99998283}
+    - name: LizardLLegAnkle1
+      parentName: LizardLLegCalf
+      position: {x: -0.09107682, y: -0.000000076293944, z: 0.000000028610229}
+      rotation: {x: 0.73007697, y: 0.5254135, z: 0.35518995, w: 0.25449637}
+      scale: {x: 0.9999947, y: 1.0000502, z: 0.99995655}
+    - name: LizardLLegAnkle2
+      parentName: LizardLLegAnkle1
+      position: {x: -0.13007483, y: 0, z: 0}
+      rotation: {x: -0.17336276, y: -0.13433072, z: -0.66676414, w: 0.7122684}
+      scale: {x: 0.99999255, y: 1.0000204, z: 0.9999868}
+    - name: LizardLLegDigit21
+      parentName: LizardLLegAnkle2
+      position: {x: -0.052556094, y: 0.00977853, z: -0.0049280548}
+      rotation: {x: 0.026729118, y: 0.10085193, z: -0.2844926, w: 0.95298404}
+      scale: {x: 0.9999916, y: 1.0000428, z: 0.9999684}
+    - name: LizardLLegDigit22
+      parentName: LizardLLegDigit21
+      position: {x: -0.05147412, y: -0.000000009536743, z: -0.000000038146972}
+      rotation: {x: -0.0077112922, y: 0.03457236, z: 0.12735373, w: 0.9912247}
+      scale: {x: 1.0000165, y: 1.000069, z: 0.9999207}
+    - name: LizardLLegDigit23
+      parentName: LizardLLegDigit22
+      position: {x: -0.045828216, y: 0, z: -0.000000038146972}
+      rotation: {x: 0.0013744808, y: -0.047145728, z: -0.026504813, w: 0.9985354}
+      scale: {x: 1.0000381, y: 1.0001361, z: 0.99983734}
+    - name: LizardLLegDigit31
+      parentName: LizardLLegAnkle2
+      position: {x: -0.04885061, y: 0.0247516, z: -0.040301133}
+      rotation: {x: -0.056563973, y: -0.21393816, z: -0.2941833, w: 0.9297781}
+      scale: {x: 1.0000309, y: 1.0000442, z: 0.99992776}
+    - name: LizardLLegDigit32
+      parentName: LizardLLegDigit31
+      position: {x: -0.03812439, y: 0, z: -0.000000019073486}
+      rotation: {x: 0.000000011175868, y: 0.000000014901158, z: 0.13052619, w: 0.9914448}
+      scale: {x: 1.000023, y: 1.0000641, z: 0.9999185}
+    - name: LizardLLegDigit33
+      parentName: LizardLLegDigit32
+      position: {x: -0.050579567, y: 0.000000019073486, z: 0.000000038146972}
+      rotation: {x: -0.0000000019535435, y: -0.00000011888248, z: 0.091798194, w: 0.9957776}
+      scale: {x: 1.0000298, y: 1.000141, z: 0.9998411}
+    - name: LizardLLegDigit41
+      parentName: LizardLLegAnkle2
+      position: {x: -0.018610325, y: 0.011921496, z: -0.056641653}
+      rotation: {x: -0.08386145, y: -0.5938769, z: -0.2145551, w: 0.770872}
+      scale: {x: 1.0000664, y: 1.000044, z: 0.99989265}
+    - name: LizardLLegDigit42
+      parentName: LizardLLegDigit41
+      position: {x: -0.04830429, y: 0, z: -0.000000011920928}
+      rotation: {x: 0.000000052154057, y: -0.000000029802319, z: 0.13052617, w: 0.9914449}
+      scale: {x: 1.000026, y: 1.0000625, z: 0.9999179}
+    - name: LizardLLegDigit43
+      parentName: LizardLLegDigit42
+      position: {x: -0.0490361, y: 0, z: 0.0000000047683715}
+      rotation: {x: 0.000000024214383, y: -0.000000029802319, z: 0.039984066, w: 0.99920034}
+      scale: {x: 1.0000526, y: 1.0001134, z: 0.9998457}
+    - name: LizardLLegDigit11
+      parentName: LizardLLegAnkle2
+      position: {x: -0.017578162, y: 0.0016731404, z: 0.018948097}
+      rotation: {x: 0.13568754, y: 0.60247964, z: -0.16673504, w: 0.76863956}
+      scale: {x: 1.0000432, y: 1.0000399, z: 0.9999198}
+    - name: LizardLLegDigit12
+      parentName: LizardLLegDigit11
+      position: {x: -0.055877093, y: 0, z: -0.000000019073486}
+      rotation: {x: -0.000000022351736, y: -0, z: 0.13052619, w: 0.9914448}
+      scale: {x: 1.000017, y: 1.000075, z: 0.9999144}
+    - name: LizardLLegDigit13
+      parentName: LizardLLegDigit12
+      position: {x: -0.044527054, y: -0.000000007152557, z: -0.000000019073486}
+      rotation: {x: 0.000000033527616, y: 0.000000089406974, z: 0.13052623, w: 0.9914449}
+      scale: {x: 1.0000376, y: 1.0001383, z: 0.99983746}
+    - name: LizardRRearLegThigh
+      parentName: LizardPelvis
+      position: {x: -0.0010122776, y: -0.017362176, z: -0.10550452}
+      rotation: {x: -0.094041586, y: 0.6409911, z: -0.76069355, w: -0.040398207}
+      scale: {x: 0.9999978, y: 1, z: 1.000002}
+    - name: LizardRRearLegCalf
+      parentName: LizardRRearLegThigh
+      position: {x: -0.20749919, y: -0.000000019073486, z: 0.0000000667572}
+      rotation: {x: 0.5751839, y: 0.1269297, z: 0.09371358, w: 0.80266434}
+      scale: {x: 0.99998283, y: 1.0000002, z: 1.0000186}
+    - name: LizardRRearLegAnkle1
+      parentName: LizardRRearLegCalf
+      position: {x: -0.09107683, y: -0.000000052452087, z: -0.000000057220458}
+      rotation: {x: -0.73010516, y: -0.5255008, z: 0.35489538, w: 0.25464633}
+      scale: {x: 1.0000066, y: 0.99994856, z: 1.0000458}
+    - name: LizardRRearLegAnkle2
+      parentName: LizardRRearLegAnkle1
+      position: {x: -0.13007481, y: 0, z: -0.0000000023841857}
+      rotation: {x: 0.17307667, y: 0.13373005, z: -0.66670036, w: 0.71251065}
+      scale: {x: 1.0000064, y: 0.99997985, z: 1.0000159}
+    - name: LizardRRearLegDigit21
+      parentName: LizardRRearLegAnkle2
+      position: {x: -0.052556027, y: 0.009778566, z: 0.0049280357}
+      rotation: {x: -0.026903968, y: -0.10028274, z: -0.28453603, w: 0.9530261}
+      scale: {x: 1.0000056, y: 0.99996203, z: 1.0000352}
+    - name: LizardRRearLegDigit22
+      parentName: LizardRRearLegDigit21
+      position: {x: -0.05147413, y: 0, z: 5.9604643e-10}
+      rotation: {x: 0.0077112867, y: -0.034572218, z: 0.12735374, w: 0.99122465}
+      scale: {x: 0.99998474, y: 0.99993575, z: 1.000087}
+    - name: LizardRRearLegDigit23
+      parentName: LizardRRearLegDigit22
+      position: {x: -0.04582819, y: -0.0000000047683715, z: -0.0000000017881393}
+      rotation: {x: -0.0013744304, y: 0.047145598, z: -0.026504863, w: 0.9985354}
+      scale: {x: 0.9999624, y: 0.999873, z: 1.0001787}
+    - name: LizardRRearLegDigit31
+      parentName: LizardRRearLegAnkle2
+      position: {x: -0.048850544, y: 0.024751673, z: 0.04030111}
+      rotation: {x: 0.056402966, y: 0.21448852, z: -0.2942746, w: 0.9296321}
+      scale: {x: 0.99996525, y: 0.9999608, z: 1.0000769}
+    - name: LizardRRearLegDigit32
+      parentName: LizardRRearLegDigit31
+      position: {x: -0.03812437, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.000000067055225, y: -0.000000014901161, z: 0.13052626, w: 0.9914449}
+      scale: {x: 0.9999786, y: 0.9999403, z: 1.0000888}
+    - name: LizardRRearLegDigit33
+      parentName: LizardRRearLegDigit32
+      position: {x: -0.050579604, y: 0, z: 0}
+      rotation: {x: 0.000000022620906, y: 0.000000020809273, z: 0.091798, w: 0.9957777}
+      scale: {x: 0.9999708, y: 0.9998697, z: 1.0001736}
+    - name: LizardRRearLegDigit41
+      parentName: LizardRRearLegAnkle2
+      position: {x: -0.018610295, y: 0.01192152, z: 0.05664153}
+      rotation: {x: -0.083771236, y: -0.5943307, z: 0.21465252, w: -0.7705049}
+      scale: {x: 0.9999296, y: 0.9999609, z: 1.0001116}
+    - name: LizardRRearLegDigit42
+      parentName: LizardRRearLegDigit41
+      position: {x: -0.04830425, y: 0, z: 0}
+      rotation: {x: -0.00000002235174, y: 0.00000008940696, z: 0.13052614, w: 0.99144495}
+      scale: {x: 0.9999734, y: 0.9999434, z: 1.00009}
+    - name: LizardRRearLegDigit43
+      parentName: LizardRRearLegDigit42
+      position: {x: -0.049036033, y: 0.0000000047683715, z: 0.000000019073486}
+      rotation: {x: 0.0000000037252903, y: 0.000000029802322, z: 0.039984062, w: 0.99920034}
+      scale: {x: 0.9999928, y: 0.9998698, z: 1.00015}
+    - name: LizardRRearLegDigit11
+      parentName: LizardRRearLegAnkle2
+      position: {x: -0.017578153, y: 0.0016731452, z: -0.018948048}
+      rotation: {x: -0.13582356, y: -0.6020134, z: -0.16670243, w: 0.76898766}
+      scale: {x: 0.9999546, y: 0.9999644, z: 1.0000843}
+    - name: LizardRRearLegDigit12
+      parentName: LizardRRearLegDigit11
+      position: {x: -0.055877056, y: 0, z: 0}
+      rotation: {x: 0.000000037252896, y: 0.00000017881389, z: 0.13052627, w: 0.9914448}
+      scale: {x: 0.99998444, y: 0.99993056, z: 1.0000927}
+    - name: LizardRRearLegDigit13
+      parentName: LizardRRearLegDigit12
+      position: {x: -0.044527035, y: 0, z: -0.000000019073486}
+      rotation: {x: 0.000000007450581, y: 0.00000008940697, z: 0.13052619, w: 0.99144495}
+      scale: {x: 0.9999644, y: 0.99987274, z: 1.0001764}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 1
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

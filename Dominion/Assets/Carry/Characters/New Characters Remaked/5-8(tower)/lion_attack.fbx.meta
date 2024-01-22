@@ -1,0 +1,527 @@
+fileFormatVersion: 2
+guid: 59ba17806cfb16f42af31916bfe8193b
+ModelImporter:
+  serializedVersion: 20300
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 08 - Default
+    second: {fileID: 2100000, guid: 997bb1d92e6a3474fa1a5dd15920f0ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: defaultMat
+    second: {fileID: 2100000, guid: fa46eccb431bde64a958436fc1ff9911, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: defaultMat_Base_color
+    second: {fileID: 2800000, guid: 885a7cbe250023d4faf8863e4e1b1103, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: attack
+      takeName: lion_attack
+      internalID: 2407585758405409602
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: lion_attack(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lion T  1
+      parentName: lion_attack(Clone)
+      position: {x: -0, y: 0, z: -0.0027682714}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Panther
+      parentName: lion_attack(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.5000001, y: -0.50000006, z: -0.4999999, w: 0.49999997}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PantherLLegPlatform
+      parentName: lion_attack(Clone)
+      position: {x: -0.0030355353, y: -0.0000000015130903, z: -0.009101968}
+      rotation: {x: 0.50396013, y: -0.49600825, z: -0.50396013, w: 0.49600825}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PantherRLegPlatform
+      parentName: lion_attack(Clone)
+      position: {x: 0.0031615822, y: -0.0000000015130904, z: -0.008673656}
+      rotation: {x: 0.502762, y: -0.49722266, z: -0.502762, w: 0.49722266}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PantherLLegPlatform 1
+      parentName: lion_attack(Clone)
+      position: {x: -0.0026647826, y: 0.000000001001513, z: 0.0074108583}
+      rotation: {x: 0.5107869, y: -0.49538162, z: -0.5044798, w: 0.48907456}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: PantherRLegPlatform 1
+      parentName: lion_attack(Clone)
+      position: {x: 0.0027143643, y: 0.0000000010015129, z: 0.007765959}
+      rotation: {x: -0.50826204, y: 0.485145, z: 0.5145679, w: -0.49145085}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: PantherPelvis
+      parentName: lion_attack(Clone)
+      position: {x: 0.0008277679, y: 0.009133295, z: -0.00036108325}
+      rotation: {x: 0.38731924, y: -0.4583957, z: -0.40943554, w: 0.6871825}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PantherRLeg1
+      parentName: PantherPelvis
+      position: {x: 0.00047420195, y: 0.00027517395, z: -0.0020257118}
+      rotation: {x: -0.66726387, y: 0.7279454, z: -0.083277956, w: -0.1338629}
+      scale: {x: 0.9999997, y: 1.0000002, z: 0.99999994}
+    - name: PantherRLeg2
+      parentName: PantherRLeg1
+      position: {x: -0.005658444, y: 0.000000008773804, z: 0.0000000019073487}
+      rotation: {x: -0.0029867636, y: -0.18519351, z: 0.40564615, w: 0.8950674}
+      scale: {x: 0.99999744, y: 1.0000037, z: 0.9999995}
+    - name: PantherRLegPalm
+      parentName: PantherRLeg2
+      position: {x: -0.0047419397, y: -7.6293943e-10, z: 3.8146972e-10}
+      rotation: {x: -0.018556979, y: 0.0038439191, z: -0.3384979, w: 0.94077635}
+      scale: {x: 0.9999979, y: 1.0000027, z: 0.9999996}
+    - name: PantherRLegDigit31
+      parentName: PantherRLegPalm
+      position: {x: -0.0038835807, y: -0.00007570114, z: 0.00047795102}
+      rotation: {x: 0.08737024, y: 0.12803273, z: -0.68339187, w: 0.7134071}
+      scale: {x: 0.9999945, y: 1.0000058, z: 0.9999994}
+    - name: PantherRLegDigit32
+      parentName: PantherRLegDigit31
+      position: {x: -0.001003408, y: 0, z: -7.6293943e-10}
+      rotation: {x: 0.000000015312837, y: -0.000000025328951, z: 0.31616434, w: 0.9487044}
+      scale: {x: 0.99999785, y: 1.000002, z: 0.99999994}
+    - name: PantherRLegDigit01
+      parentName: PantherRLegPalm
+      position: {x: -0.0037485089, y: -0.000038596343, z: -0.00034083021}
+      rotation: {x: -0.102427766, y: -0.08972004, z: -0.68324244, w: 0.7173832}
+      scale: {x: 0.9999944, y: 1.0000061, z: 0.99999946}
+    - name: PantherRLegDigit02
+      parentName: PantherRLegDigit01
+      position: {x: -0.0015911643, y: -9.536743e-11, z: -9.536743e-11}
+      rotation: {x: -0.000000029325118, y: -0.000000028372094, z: 0.5715733, w: 0.820551}
+      scale: {x: 0.9999945, y: 1.0000052, z: 0.9999995}
+    - name: PantherRLegDigit11
+      parentName: PantherRLegPalm
+      position: {x: -0.0038482537, y: -0.000058311463, z: -0.00016719474}
+      rotation: {x: -0.029451778, y: 0.00016513672, z: -0.70055705, w: 0.7129884}
+      scale: {x: 0.9999942, y: 1.0000061, z: 0.99999994}
+    - name: PantherRLegDigit12
+      parentName: PantherRLegDigit11
+      position: {x: -0.0014011993, y: -1.9073486e-10, z: 1.9073486e-10}
+      rotation: {x: 0.0000000073926327, y: -2.1622591e-10, z: 0.446251, w: 0.89490783}
+      scale: {x: 0.99999654, y: 1.0000037, z: 1.0000001}
+    - name: PantherRLegDigit21
+      parentName: PantherRLegPalm
+      position: {x: -0.0038149804, y: -0.00000070495605, z: 0.000019648744}
+      rotation: {x: 0.07016022, y: 0.08844124, z: -0.68591416, w: 0.71887237}
+      scale: {x: 0.9999945, y: 1.0000061, z: 0.9999996}
+    - name: PantherRLegDigit22
+      parentName: PantherRLegDigit21
+      position: {x: -0.0012144798, y: 0, z: 0}
+      rotation: {x: 0.00000002425194, y: -0.000000054479777, z: 0.37794697, w: 0.92582726}
+      scale: {x: 0.99999726, y: 1.0000031, z: 0.9999999}
+    - name: PantherSpine1
+      parentName: PantherPelvis
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.00000003330891, y: 0.00000011157218, z: -0.13789189, w: 0.9904473}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: PantherSpine2
+      parentName: PantherSpine1
+      position: {x: -0.0026112709, y: -0.0000000015258789, z: 5.674774e-11}
+      rotation: {x: 0.000000049679787, y: 0.00000008258999, z: -0.06971757, w: 0.9975668}
+      scale: {x: 0.99999994, y: 0.9999999, z: 1}
+    - name: PantherSpine3
+      parentName: PantherSpine2
+      position: {x: -0.0026112709, y: 0, z: 2.3621868e-10}
+      rotation: {x: 0.00000003164953, y: -0.000000059374386, z: -0.026247125, w: 0.9996555}
+      scale: {x: 1.0000002, y: 1, z: 1.0000001}
+    - name: PantherSpine4
+      parentName: PantherSpine3
+      position: {x: -0.0026112704, y: 0, z: -1.8189894e-16}
+      rotation: {x: 0.000000009851097, y: 0.00000006542966, z: -0.0013532131, w: 0.9999991}
+      scale: {x: 0.9999999, y: 1.0000001, z: 0.9999999}
+    - name: PantherSpine5
+      parentName: PantherSpine4
+      position: {x: -0.0026112704, y: 0, z: 1.8189894e-16}
+      rotation: {x: 0.0000000229538, y: -0.0000001216572, z: 0.08535093, w: 0.996351}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PantherSpine6
+      parentName: PantherSpine5
+      position: {x: -0.0026112709, y: 0, z: -1.8189894e-16}
+      rotation: {x: -0.024708338, y: -0.28200746, z: -0.0110763665, w: 0.95903}
+      scale: {x: 0.99999976, y: 0.9999998, z: 0.99999994}
+    - name: PantherRibcage
+      parentName: PantherSpine6
+      position: {x: -0.0026112716, y: -0.0000000015258789, z: 0}
+      rotation: {x: -0.000000045631356, y: -0.000000021588372, z: 0.024585625, w: 0.99969774}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1}
+    - name: PantherNeck1
+      parentName: PantherRibcage
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.000019735704, y: 0.00009480374, z: 0.1479724, w: 0.9889915}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: PantherNeck2
+      parentName: PantherNeck1
+      position: {x: -0.001681417, y: 7.6293943e-10, z: 0}
+      rotation: {x: -0.05941321, y: 0.46256304, z: 0.16377209, w: 0.86930096}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: PantherNeck3
+      parentName: PantherNeck2
+      position: {x: -0.0016814178, y: 3.8146972e-10, z: 0}
+      rotation: {x: 0.007509283, y: 0.107746884, z: 0.03912094, w: 0.99338}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: PantherNeck4
+      parentName: PantherNeck3
+      position: {x: -0.0016814163, y: -7.6293943e-10, z: 0}
+      rotation: {x: -0.00019681173, y: 0.000112811795, z: -0.07245807, w: 0.99737144}
+      scale: {x: 1.0000005, y: 1, z: 1}
+    - name: PantherNeck5
+      parentName: PantherNeck4
+      position: {x: -0.0016814163, y: -0.0000000015258789, z: -1.4901161e-12}
+      rotation: {x: 0.0065798955, y: 0.030532623, z: 0.018045768, w: 0.9993493}
+      scale: {x: 1.0000001, y: 0.99999976, z: 0.9999999}
+    - name: PantherHead
+      parentName: PantherNeck5
+      position: {x: -0.0016814163, y: -0.0000000015258789, z: -2.9802322e-12}
+      rotation: {x: 0.00020981824, y: 0.00045056644, z: -0.3954756, w: 0.9184764}
+      scale: {x: 1, y: 0.99999964, z: 1.0000002}
+    - name: Sphere002
+      parentName: PantherHead
+      position: {x: -0.001115519, y: 0.00018474273, z: -0.00000009613037}
+      rotation: {x: -0.14100018, y: 0.6929061, z: 0.14100014, w: 0.69290626}
+      scale: {x: -1.2321999, y: -1.2322011, z: -1.2321999}
+    - name: Sphere001
+      parentName: PantherHead
+      position: {x: -0.001115519, y: 0.00018474273, z: -0.00000009613037}
+      rotation: {x: 0.6929061, y: 0.1410011, z: -0.6929059, w: 0.14100114}
+      scale: {x: 1.2321997, y: 1.2322009, z: 1.2322}
+    - name: PantherRLegShoulderblade
+      parentName: PantherRibcage
+      position: {x: 0.0016126479, y: -0.00014599532, z: -0.0011993952}
+      rotation: {x: 0.6547923, y: -0.52728385, z: 0.44910082, w: 0.30253467}
+      scale: {x: 0.9999996, y: 1.0000007, z: 0.9999995}
+    - name: PantherRLeg1 1
+      parentName: PantherRLegShoulderblade
+      position: {x: -0.0047925133, y: 7.6293943e-10, z: -0.0000000015258789}
+      rotation: {x: -0.18471429, y: 0.0916658, z: 0.11996983, w: 0.97112584}
+      scale: {x: 0.9999994, y: 1.0000006, z: 1.0000002}
+    - name: PantherRLeg2 1
+      parentName: PantherRLeg1 1
+      position: {x: -0.005488711, y: 0, z: 5.7220456e-10}
+      rotation: {x: -0.010692875, y: 0.009504038, z: -0.033207312, w: 0.99934614}
+      scale: {x: 0.9999979, y: 1.0000019, z: 1}
+    - name: PantherRLegPalm 1
+      parentName: PantherRLeg2 1
+      position: {x: -0.0044814246, y: 0, z: 0}
+      rotation: {x: -0.011029918, y: 0.019991657, z: -0.103154786, w: 0.99440324}
+      scale: {x: 0.9999979, y: 1.0000018, z: 1}
+    - name: PantherRLegDigit01 1
+      parentName: PantherRLegPalm 1
+      position: {x: -0.0024965007, y: -0.000095178984, z: -0.00020165309}
+      rotation: {x: -0.05316196, y: -0.016395835, z: -0.02677515, w: 0.9980923}
+      scale: {x: 0.9999977, y: 1.0000027, z: 1.0000001}
+    - name: PantherRLegDigit02 1
+      parentName: PantherRLegDigit01 1
+      position: {x: -0.001664228, y: 4.7683715e-11, z: 0}
+      rotation: {x: 0.00000004507977, y: 0.00000003836576, z: 0.46446273, w: 0.88559264}
+      scale: {x: 0.9999966, y: 1.0000038, z: 1.0000001}
+    - name: PantherRLegDigit11 1
+      parentName: PantherRLegPalm 1
+      position: {x: -0.0024352276, y: -0.00016387252, z: 0.000028676795}
+      rotation: {x: 0.016040713, y: 0.011521458, z: -0.028284281, w: 0.99940485}
+      scale: {x: 0.99999696, y: 1.0000032, z: 0.99999994}
+    - name: PantherRLegDigit12 1
+      parentName: PantherRLegDigit11 1
+      position: {x: -0.001664228, y: 0, z: 1.9073486e-10}
+      rotation: {x: 0.0000000327705, y: -0.000000029467701, z: 0.53128594, w: 0.8471926}
+      scale: {x: 0.99999654, y: 1.0000035, z: 1.0000001}
+    - name: PantherRLegDigit21 1
+      parentName: PantherRLegPalm 1
+      position: {x: -0.0024693862, y: -0.00004318199, z: 0.000080337144}
+      rotation: {x: 0.11080818, y: 0.040456183, z: -0.022572992, w: 0.9927615}
+      scale: {x: 0.9999979, y: 1.0000021, z: 1}
+    - name: PantherRLegDigit22 1
+      parentName: PantherRLegDigit21 1
+      position: {x: -0.0014823807, y: 0, z: 2.8610228e-10}
+      rotation: {x: 0.030449376, y: -0.014082797, z: 0.30370858, w: 0.9521742}
+      scale: {x: 0.99999845, y: 1.0000015, z: 1}
+    - name: PantherRLegDigit31 1
+      parentName: PantherRLegPalm 1
+      position: {x: -0.0023437263, y: 0.000118974676, z: 0.0009591423}
+      rotation: {x: 0.09090776, y: 0.046017062, z: -0.01727694, w: 0.99464554}
+      scale: {x: 0.99999774, y: 1.000002, z: 1.0000004}
+    - name: PantherRLegDigit32 1
+      parentName: PantherRLegDigit31 1
+      position: {x: -0.0009839241, y: 0, z: 5.7220456e-10}
+      rotation: {x: 0.030343637, y: -0.014309398, z: 0.31079975, w: 0.9498832}
+      scale: {x: 0.99999887, y: 1.0000017, z: 0.99999976}
+    - name: PantherLLegShoulderblade
+      parentName: PantherRibcage
+      position: {x: 0.0016126479, y: -0.00014599532, z: 0.0011993952}
+      rotation: {x: 0.98454785, y: 0.055654325, z: -0.14985037, w: -0.071504615}
+      scale: {x: 1.0000002, y: 1.0000004, z: 0.9999994}
+    - name: PantherLLeg1 1
+      parentName: PantherLLegShoulderblade
+      position: {x: -0.004792514, y: 0, z: 0.0000000022888182}
+      rotation: {x: 0.04382323, y: 0.3662238, z: 0.5819234, w: 0.7247929}
+      scale: {x: 1.0000004, y: 0.9999988, z: 1.0000007}
+    - name: PantherLLeg2 1
+      parentName: PantherLLeg1 1
+      position: {x: -0.005488712, y: 0.0000000011444091, z: -5.7220456e-10}
+      rotation: {x: 0.013513584, y: -0.039030455, z: -0.2758395, w: 0.9603159}
+      scale: {x: 1.0000025, y: 0.9999973, z: 0.9999997}
+    - name: PantherLLegPalm 1
+      parentName: PantherLLeg2 1
+      position: {x: -0.0044814255, y: 0, z: 1.9073486e-10}
+      rotation: {x: 0.005027146, y: -0.020780703, z: -0.36973697, w: 0.92889047}
+      scale: {x: 1.0000026, y: 0.99999756, z: 1}
+    - name: PantherLLegDigit01 1
+      parentName: PantherLLegPalm 1
+      position: {x: -0.0024965215, y: -0.00009517822, z: 0.00020165328}
+      rotation: {x: 0.0508717, y: 0.13495174, z: -0.4197643, w: 0.8961016}
+      scale: {x: 1.0000029, y: 0.9999967, z: 1.0000004}
+    - name: PantherLLegDigit02 1
+      parentName: PantherLLegDigit01 1
+      position: {x: -0.0016642272, y: 0, z: -3.8146972e-10}
+      rotation: {x: 0.000000062907354, y: -0.0000000216921, z: 0.46446496, w: 0.8855915}
+      scale: {x: 1.0000036, y: 0.9999958, z: 0.9999998}
+    - name: PantherLLegDigit11 1
+      parentName: PantherLLegPalm 1
+      position: {x: -0.0024352474, y: -0.000163871, z: -0.000028676603}
+      rotation: {x: -0.010032883, y: -0.048660327, z: -0.47790605, w: 0.87700474}
+      scale: {x: 1.0000045, y: 0.99999577, z: 1}
+    - name: PantherLLegDigit12 1
+      parentName: PantherLLegDigit11 1
+      position: {x: -0.0016642272, y: 9.536743e-11, z: 3.8146972e-10}
+      rotation: {x: -0.0000000013911319, y: -0.00000005913534, z: 0.53128785, w: 0.8471914}
+      scale: {x: 1.0000049, y: 0.99999535, z: 1}
+    - name: PantherLLegDigit21 1
+      parentName: PantherLLegPalm 1
+      position: {x: -0.002469406, y: -0.00004318199, z: -0.000080337144}
+      rotation: {x: -0.09509543, y: -0.23391291, z: -0.3980475, w: 0.8819296}
+      scale: {x: 1.0000027, y: 0.999997, z: 1.0000004}
+    - name: PantherLLegDigit22 1
+      parentName: PantherLLegDigit21 1
+      position: {x: -0.0014823799, y: 2.3841857e-11, z: 0}
+      rotation: {x: -0.030449515, y: 0.014082785, z: 0.30371064, w: 0.95217353}
+      scale: {x: 1.0000014, y: 0.9999986, z: 1.0000002}
+    - name: PantherLLegDigit31 1
+      parentName: PantherLLegPalm 1
+      position: {x: -0.0023437457, y: 0.00011897392, z: -0.0009591421}
+      rotation: {x: -0.076590635, y: -0.29271016, z: -0.3792809, w: 0.87441444}
+      scale: {x: 1.0000024, y: 0.9999973, z: 1.0000001}
+    - name: PantherLLegDigit32 1
+      parentName: PantherLLegDigit31 1
+      position: {x: -0.0009839248, y: 4.7683715e-11, z: 1.9073486e-10}
+      rotation: {x: -0.030343568, y: 0.014309494, z: 0.31080186, w: 0.9498825}
+      scale: {x: 1.0000021, y: 0.99999803, z: 0.9999996}
+    - name: PantherTail1
+      parentName: PantherPelvis
+      position: {x: 0.00084190554, y: -0.0005574081, z: -1.0413386e-10}
+      rotation: {x: -0.030773088, y: -0.010527641, z: 0.9512752, w: 0.3066231}
+      scale: {x: 1, y: 0.9999998, z: 1}
+    - name: PantherTail2
+      parentName: PantherTail1
+      position: {x: -0.0018161514, y: 0, z: 0}
+      rotation: {x: 0.000000037602916, y: -0.00000003206929, z: 0.53694236, w: 0.8436189}
+      scale: {x: 1.0000001, y: 0.9999998, z: 1.0000001}
+    - name: PantherTail3
+      parentName: PantherTail2
+      position: {x: -0.001428315, y: 0, z: 5.456968e-16}
+      rotation: {x: -0.00050121924, y: 0.004929281, z: -0.3655888, w: 0.93076324}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1}
+    - name: PantherTail4
+      parentName: PantherTail3
+      position: {x: -0.0017251365, y: 0, z: 9.094947e-17}
+      rotation: {x: 0.000000020369521, y: -0.00000008274313, z: 0.020592865, w: 0.9997879}
+      scale: {x: 1.0000002, y: 0.99999994, z: 1.0000001}
+    - name: PantherTail5
+      parentName: PantherTail4
+      position: {x: -0.0020014085, y: 0.0000000015258789, z: 0}
+      rotation: {x: -0.012625776, y: -0.03517531, z: 0.5547911, w: 0.83114994}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: PantherTail6
+      parentName: PantherTail5
+      position: {x: -0.0018161514, y: 0, z: 0}
+      rotation: {x: -0.0000000010688612, y: 0.000000023772488, z: 0.03400955, w: 0.99942154}
+      scale: {x: 0.9999998, y: 0.9999999, z: 1}
+    - name: PantherTail7
+      parentName: PantherTail6
+      position: {x: -0.0029824018, y: 0, z: -3.6379787e-16}
+      rotation: {x: 0.00000003629658, y: -0.000000007832105, z: -0.07148243, w: 0.9974419}
+      scale: {x: 0.99999994, y: 1.0000001, z: 0.99999994}
+    - name: PantherLLeg1
+      parentName: PantherPelvis
+      position: {x: 0.00047420003, y: 0.0002751709, z: 0.002025711}
+      rotation: {x: 0.07159712, y: 0.95228946, z: 0.25261745, w: 0.15557353}
+      scale: {x: 0.9999998, y: 1.0000005, z: 0.99999994}
+    - name: PantherLLeg2
+      parentName: PantherLLeg1
+      position: {x: -0.005658443, y: 0.000000008392334, z: -7.6293943e-10}
+      rotation: {x: 0.029129246, y: 0.06634772, z: 0.2731184, w: 0.9592476}
+      scale: {x: 1.0000024, y: 0.9999972, z: 1.0000007}
+    - name: PantherLLegPalm
+      parentName: PantherLLeg2
+      position: {x: -0.00474194, y: 0, z: 0}
+      rotation: {x: 0.15531221, y: 0.16485433, z: -0.8167877, w: 0.5306215}
+      scale: {x: 1.0000019, y: 0.9999978, z: 1.0000002}
+    - name: PantherLLegDigit31
+      parentName: PantherLLegPalm
+      position: {x: -0.0038836156, y: -0.00007570114, z: -0.00047795102}
+      rotation: {x: -0.08494802, y: -0.12760973, z: -0.6930205, w: 0.7044304}
+      scale: {x: 1.0000048, y: 0.9999945, z: 1.0000004}
+    - name: PantherLLegDigit32
+      parentName: PantherLLegDigit31
+      position: {x: -0.001003408, y: 0, z: 0}
+      rotation: {x: 0.000000048002732, y: -0.000000037994766, z: 0.31616685, w: 0.94870365}
+      scale: {x: 1.000002, y: 0.999998, z: 0.9999998}
+    - name: PantherLLegDigit01
+      parentName: PantherLLegPalm
+      position: {x: -0.0037485422, y: -0.000038596343, z: 0.0003408306}
+      rotation: {x: 0.10761275, y: 0.087691955, z: -0.69175047, w: 0.7086685}
+      scale: {x: 1.0000049, y: 0.9999947, z: 1.0000007}
+    - name: PantherLLegDigit02
+      parentName: PantherLLegDigit01
+      position: {x: -0.0015911643, y: 0, z: 1.4305114e-10}
+      rotation: {x: 0.00000002139105, y: 0.000000012062999, z: 0.5715749, w: 0.8205499}
+      scale: {x: 1.0000046, y: 0.9999953, z: 1.0000004}
+    - name: PantherLLegDigit11
+      parentName: PantherLLegPalm
+      position: {x: -0.003848288, y: -0.000058312224, z: 0.0001671955}
+      rotation: {x: 0.03354675, y: -0.0011982067, z: -0.70947284, w: 0.7039329}
+      scale: {x: 1.0000052, y: 0.99999493, z: 1}
+    - name: PantherLLegDigit12
+      parentName: PantherLLegDigit11
+      position: {x: -0.0014011986, y: 0, z: 1.9073486e-10}
+      rotation: {x: 0.00000004101601, y: -0.000000008686302, z: 0.4462533, w: 0.8949067}
+      scale: {x: 1.0000029, y: 0.99999726, z: 1}
+    - name: PantherLLegDigit21
+      parentName: PantherLLegPalm
+      position: {x: -0.0038150141, y: -0.000000705719, z: -0.00001964836}
+      rotation: {x: -0.06721372, y: -0.088253066, z: -0.695457, w: 0.70995307}
+      scale: {x: 1.0000054, y: 0.9999946, z: 1}
+    - name: PantherLLegDigit22
+      parentName: PantherLLegDigit21
+      position: {x: -0.0012144805, y: -9.536743e-11, z: 3.8146972e-10}
+      rotation: {x: 0.000000011018165, y: -0.00000004177503, z: 0.3779496, w: 0.9258262}
+      scale: {x: 1.0000025, y: 0.99999726, z: 0.99999964}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 0.01
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 1
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

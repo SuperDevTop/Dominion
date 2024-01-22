@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be777bccc4f2a5146ad9d7d9ce7fa416, type: 3}
+  m_Name: Neko
+  m_EditorClassIdentifier: 
+  characterName: Neko
+  characterType: captor
+  model: {fileID: 8433897510376872787, guid: a2abad0fead80a8448096f5e7c143402, type: 3}
+  visualModel: {fileID: 8433897510376872787, guid: d1ebe8ac436fd6941841851d38a64256,
+    type: 3}
+  sprite: {fileID: 21300000, guid: 112f82952d26ab94ea539e1edde49df3, type: 3}
+  fullbodySprite: {fileID: 21300000, guid: eee8c7743f1ea3e4d83a8421fb00564d, type: 3}
+  attackType: 0
+  cost: 3
+  moveSpeed: 1.6
+  dmg: 100
+  shootRate: 0.5
+  health: 1000
+  visionRange: 3
+  attackRange: 2.4

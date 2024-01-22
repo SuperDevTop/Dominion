@@ -1,0 +1,2448 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &45748672308114414
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3899434545323632692}
+  m_Layer: 0
+  m_Name: PantherNeck3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3899434545323632692
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 45748672308114414}
+  m_LocalRotation: {x: 0.010134707, y: 0.011237227, z: 0.14716768, w: 0.9889958}
+  m_LocalPosition: {x: -0.12523612, y: 0, z: 0}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1.0000002}
+  m_Children:
+  - {fileID: 2677504427074667168}
+  m_Father: {fileID: 9210510875469571753}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.29416442, y: -4.8247957, z: 17.783812}
+--- !u!1 &380065452198139539
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 768997129597703797}
+  - component: {fileID: 8805546220889395154}
+  m_Layer: 0
+  m_Name: babs
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &768997129597703797
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 380065452198139539}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.000000019073486, y: 0.7335585, z: 0.003292987}
+  m_LocalScale: {x: 0.726045, y: 0.726045, z: 0.726045}
+  m_Children: []
+  m_Father: {fileID: 68247546161826652}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &8805546220889395154
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 380065452198139539}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: -59136025557594432, guid: a4017631d832c374a9d4ee76a77985aa, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 6097454283327866812, guid: de5b65411861f1044852954cf27b0704, type: 3}
+  m_Bones:
+  - {fileID: 637233144211510206}
+  - {fileID: 4042958177641863551}
+  - {fileID: 3899434545323632692}
+  - {fileID: 1612595901981471423}
+  - {fileID: 8442716848505863413}
+  - {fileID: 9056554077813347899}
+  - {fileID: 1161904995033090796}
+  - {fileID: 8420419442591399336}
+  - {fileID: 1470435958704537024}
+  - {fileID: 9210510875469571753}
+  - {fileID: 8928749003548779688}
+  - {fileID: 3803085041500302778}
+  - {fileID: 9094323773101459576}
+  - {fileID: 8339464836700055501}
+  - {fileID: 2046295471625257144}
+  - {fileID: 9062504048102963163}
+  - {fileID: 2596647631640890940}
+  - {fileID: 6398261907859814009}
+  - {fileID: 1072809110684900372}
+  - {fileID: 7981642861651874044}
+  - {fileID: 6802360902873654807}
+  - {fileID: 7411591947182932175}
+  - {fileID: 3140177217302076329}
+  - {fileID: 2288424719669807772}
+  - {fileID: 3748701554207372063}
+  - {fileID: 7238398594315171335}
+  - {fileID: 5728090927519615705}
+  - {fileID: 7136395561457133989}
+  - {fileID: 5851171799315103939}
+  - {fileID: 5165228887601856396}
+  - {fileID: 8538461672443438039}
+  - {fileID: 210009574945114264}
+  - {fileID: 6098273118673779241}
+  - {fileID: 4492343539934996121}
+  - {fileID: 6384944706534826162}
+  - {fileID: 2677504427074667168}
+  - {fileID: 944279157391357512}
+  - {fileID: 2805586582383916383}
+  - {fileID: 7427256396160180774}
+  - {fileID: 5702495836117372587}
+  - {fileID: 287963374754367051}
+  - {fileID: 9109156687944916857}
+  - {fileID: 6226649350871652974}
+  - {fileID: 4275074478759818287}
+  - {fileID: 5531661911574983247}
+  - {fileID: 2435256894443542830}
+  - {fileID: 9101366090186830458}
+  - {fileID: 832486599068523447}
+  - {fileID: 17303701787722106}
+  - {fileID: 312379886619957769}
+  - {fileID: 4722099438652726352}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 3140177217302076329}
+  m_AABB:
+    m_Center: {x: -0.5087004, y: 0.27135217, z: 0.0012564063}
+    m_Extent: {x: 1.0103478, y: 0.7778752, z: 0.42659718}
+  m_DirtyAABB: 0
+--- !u!1 &428062447992853546
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 287963374754367051}
+  m_Layer: 0
+  m_Name: PantherHeadBone001Bone001Bone001
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &287963374754367051
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 428062447992853546}
+  m_LocalRotation: {x: -0.0039697173, y: -0.00021047688, z: -0.14478083, w: 0.9894558}
+  m_LocalPosition: {x: -0.09439209, y: 0, z: -0.000000038146972}
+  m_LocalScale: {x: 1, y: 1.0000001, z: 0.99999976}
+  m_Children:
+  - {fileID: 9109156687944916857}
+  m_Father: {fileID: 5702495836117372587}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.45360523, y: 0.042019006, z: -16.649454}
+--- !u!1 &844273470106003540
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4704152384684739573}
+  m_Layer: 0
+  m_Name: PantherLLegPlatform 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4704152384684739573
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 844273470106003540}
+  m_LocalRotation: {x: 0.4949944, y: -0.51116437, z: -0.48878798, w: 0.50475526}
+  m_LocalPosition: {x: -0.18255384, y: 0.0043017743, z: 0.6579154}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+  m_Children: []
+  m_Father: {fileID: 68247546161826652}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0.022215212, y: -90.72284, z: -89.999466}
+--- !u!1 &844889355741090278
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 68247546161826652}
+  - component: {fileID: 2232005927019447257}
+  m_Layer: 0
+  m_Name: babs_walk
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &68247546161826652
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 844889355741090278}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 768997129597703797}
+  - {fileID: 3865914034660362789}
+  - {fileID: 2168101881279880399}
+  - {fileID: 6752605592819016826}
+  - {fileID: 6176253080324641397}
+  - {fileID: 1318419282731069591}
+  - {fileID: 4704152384684739573}
+  - {fileID: 3140177217302076329}
+  - {fileID: 9001571866603236607}
+  - {fileID: 268884199807636629}
+  m_Father: {fileID: 8433897510376872786}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!111 &2232005927019447257
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 844889355741090278}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: -3419257869308726280, guid: de5b65411861f1044852954cf27b0704,
+    type: 3}
+  m_Animations:
+  - {fileID: -3419257869308726280, guid: de5b65411861f1044852954cf27b0704, type: 3}
+  - {fileID: -7591375928777589627, guid: ed6171cf7c4899948bec444ef12b169c, type: 3}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!1 &912724222198772736
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7136395561457133989}
+  m_Layer: 0
+  m_Name: PantherTail6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7136395561457133989
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 912724222198772736}
+  m_LocalRotation: {x: 0.000000027352048, y: 0.000000025469472, z: 0.26553485, w: 0.9641013}
+  m_LocalPosition: {x: -0.07422271, y: -0.000000076293944, z: -9.094947e-15}
+  m_LocalScale: {x: 0.9999994, y: 1.0000027, z: 0.99999964}
+  m_Children:
+  - {fileID: 3748701554207372063}
+  m_Father: {fileID: 5851171799315103939}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.0000003143262, y: 0.0000054835336, z: -3.7902322}
+--- !u!1 &1399649001792726183
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6802360902873654807}
+  m_Layer: 0
+  m_Name: PantherRLegDigit11
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6802360902873654807
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1399649001792726183}
+  m_LocalRotation: {x: -0.12589274, y: 0.0572677, z: -0.43650615, w: 0.8890072}
+  m_LocalPosition: {x: -0.25129867, y: -0.00043260574, z: 0.0031522177}
+  m_LocalScale: {x: 0.9999215, y: 1.0001211, z: 1.0000126}
+  m_Children:
+  - {fileID: 7411591947182932175}
+  m_Father: {fileID: 2288424719669807772}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -22.740051, y: 8.409376, z: -112.29186}
+--- !u!1 &1509612891191364156
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 268884199807636629}
+  m_Layer: 0
+  m_Name: PantherRLegPlatform 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &268884199807636629
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1509612891191364156}
+  m_LocalRotation: {x: -0.56067604, y: 0.4234796, z: 0.5677941, w: -0.4288558}
+  m_LocalPosition: {x: 0.18094489, y: 0.052859187, z: 0.058624037}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 68247546161826652}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: -0.02218229, y: -89.2772, z: -89.999466}
+--- !u!1 &1545024280740479268
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 832486599068523447}
+  m_Layer: 0
+  m_Name: PantherLLegPalm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &832486599068523447
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1545024280740479268}
+  m_LocalRotation: {x: -0.04059273, y: 0.05039158, z: -0.31042996, w: 0.9483914}
+  m_LocalPosition: {x: -0.1903782, y: 0, z: -0.000000019073486}
+  m_LocalScale: {x: 1.0000194, y: 0.9999805, z: 0.9999999}
+  m_Children:
+  - {fileID: 2435256894443542830}
+  m_Father: {fileID: 312379886619957769}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -2.6197815, y: 6.9446883, z: -36.40831}
+--- !u!1 &1849662806840512127
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8538461672443438039}
+  m_Layer: 0
+  m_Name: PantherTail3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8538461672443438039
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1849662806840512127}
+  m_LocalRotation: {x: -0.000000016461502, y: 0.000000021783979, z: 0.0145093575,
+    w: 0.99989474}
+  m_LocalPosition: {x: -0.07793747, y: 0.000000038146972, z: 9.094947e-15}
+  m_LocalScale: {x: 1, y: 1.0000005, z: 1}
+  m_Children:
+  - {fileID: 5165228887601856396}
+  m_Father: {fileID: 210009574945114264}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.0000028067734, y: -0.000004448529, z: -12.043737}
+--- !u!1 &1863687803355507578
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 637233144211510206}
+  m_Layer: 0
+  m_Name: PantherHead
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &637233144211510206
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1863687803355507578}
+  m_LocalRotation: {x: 0.03203348, y: 0.016156591, z: -0.61944366, w: 0.7842209}
+  m_LocalPosition: {x: -0.08934898, y: 0, z: 0.0000000023841857}
+  m_LocalScale: {x: 0.99999964, y: 1, z: 1.0000002}
+  m_Children:
+  - {fileID: 7427256396160180774}
+  - {fileID: 9056554077813347899}
+  m_Father: {fileID: 4042958177641863551}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.72624683, y: 6.3768477, z: -47.44998}
+--- !u!1 &1902042721947701448
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9210510875469571753}
+  m_Layer: 0
+  m_Name: PantherNeck2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9210510875469571753
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1902042721947701448}
+  m_LocalRotation: {x: 0.013336177, y: -0.0023508782, z: 0.1903319, w: 0.9816264}
+  m_LocalPosition: {x: -0.13745369, y: 0.000000076293944, z: 0}
+  m_LocalScale: {x: 1.000004, y: 0.99999493, z: 1.0000008}
+  m_Children:
+  - {fileID: 3899434545323632692}
+  m_Father: {fileID: 2596647631640890940}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.40205592, y: -5.195471, z: 13.69199}
+--- !u!1 &2005343600986968541
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5728090927519615705}
+  m_Layer: 0
+  m_Name: PantherRLeg2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5728090927519615705
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2005343600986968541}
+  m_LocalRotation: {x: -0.02987658, y: -0.03686135, z: 0.43408802, w: 0.89962006}
+  m_LocalPosition: {x: -0.29878014, y: -0.00000020980835, z: 0.000000114440915}
+  m_LocalScale: {x: 1.0000035, y: 0.99999607, z: 1.0000001}
+  m_Children:
+  - {fileID: 2288424719669807772}
+  m_Father: {fileID: 6398261907859814009}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 3.1560755, y: -10.630069, z: 78.33568}
+--- !u!1 &2358365318904787515
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 210009574945114264}
+  m_Layer: 0
+  m_Name: PantherTail2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &210009574945114264
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2358365318904787515}
+  m_LocalRotation: {x: -0.00000004738749, y: -0.00000003137259, z: -0.04807629, w: 0.99884367}
+  m_LocalPosition: {x: -0.073696285, y: 0, z: 0}
+  m_LocalScale: {x: 1.0000002, y: 1.0000001, z: 0.99999994}
+  m_Children:
+  - {fileID: 8538461672443438039}
+  m_Father: {fileID: 6098273118673779241}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.000001478293, y: -0.000010052128, z: -16.005999}
+--- !u!1 &2361696189164241286
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2168101881279880399}
+  m_Layer: 0
+  m_Name: corp_4:Group2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2168101881279880399
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2361696189164241286}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1861782394298110101}
+  m_Father: {fileID: 68247546161826652}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2583655055049028796
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7411591947182932175}
+  m_Layer: 0
+  m_Name: PantherRLegDigit12
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7411591947182932175
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2583655055049028796}
+  m_LocalRotation: {x: -0.01147116, y: -0.0066014975, z: 0.090372965, w: 0.99582005}
+  m_LocalPosition: {x: -0.11665512, y: -0.00000029563904, z: 0.0000022125244}
+  m_LocalScale: {x: 0.99993247, y: 1.0001714, z: 1.0000203}
+  m_Children: []
+  m_Father: {fileID: 6802360902873654807}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 11.40441, y: 15.700026, z: 34.132706}
+--- !u!1 &2612667593202462218
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7238398594315171335}
+  m_Layer: 0
+  m_Name: PantherRLeg1 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7238398594315171335
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2612667593202462218}
+  m_LocalRotation: {x: -0.16562489, y: -0.27759817, z: 0.25713846, w: 0.9107072}
+  m_LocalPosition: {x: -0.21600178, y: 0.000000038146972, z: -0.00000019073485}
+  m_LocalScale: {x: 0.99999887, y: 0.99999976, z: 1.0000013}
+  m_Children:
+  - {fileID: 944279157391357512}
+  m_Father: {fileID: 587438142941394521}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 19.806767, y: 6.621985, z: -7.3674765}
+--- !u!1 &2788754576289015507
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8420419442591399336}
+  m_Layer: 0
+  m_Name: PantherHeadBone001Bone001Bone001 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8420419442591399336
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2788754576289015507}
+  m_LocalRotation: {x: 0.003969794, y: 0.0002104356, z: -0.14478081, w: 0.9894558}
+  m_LocalPosition: {x: -0.09439201, y: 0, z: 0}
+  m_LocalScale: {x: 1.0000001, y: 1, z: 0.9999998}
+  m_Children:
+  - {fileID: 1470435958704537024}
+  m_Father: {fileID: 1161904995033090796}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.45360938, y: -0.04200008, z: -16.649471}
+--- !u!1 &2792692668657015778
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4722099438652726352}
+  m_Layer: 0
+  m_Name: PantherLLeg2 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4722099438652726352
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2792692668657015778}
+  m_LocalRotation: {x: -0.00091063307, y: 0.00000023541446, z: -0.00000078955446,
+    w: 0.9999996}
+  m_LocalPosition: {x: -0.2623848, y: -0.0000005340576, z: -0.0000001335144}
+  m_LocalScale: {x: 0.9999912, y: 1.0000093, z: 1.0000001}
+  m_Children:
+  - {fileID: 5531661911574983247}
+  m_Father: {fileID: 17303701787722106}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 13.207724, y: 10.837894, z: -102.35063}
+--- !u!1 &2965827919423322356
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9062504048102963163}
+  m_Layer: 0
+  m_Name: PantherSpine4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9062504048102963163
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2965827919423322356}
+  m_LocalRotation: {x: -0.0017415512, y: -0.030284522, z: -0.02116277, w: 0.99931574}
+  m_LocalPosition: {x: -0.14644933, y: -0.000000076293944, z: 0}
+  m_LocalScale: {x: 1.0000004, y: 1, z: 0.9999998}
+  m_Children:
+  - {fileID: 8928749003548779688}
+  m_Father: {fileID: 6384944706534826162}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.15009585, y: 5.192515, z: -7.2290845}
+--- !u!1 &3185375454138212881
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6398261907859814009}
+  m_Layer: 0
+  m_Name: PantherRLeg1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6398261907859814009
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3185375454138212881}
+  m_LocalRotation: {x: 0.80191606, y: -0.58391136, z: 0.051256664, w: 0.115546264}
+  m_LocalPosition: {x: 0.0275679, y: 0.015998688, z: -0.13801454}
+  m_LocalScale: {x: 0.9999999, y: 0.9999998, z: 1}
+  m_Children:
+  - {fileID: 5728090927519615705}
+  m_Father: {fileID: 3140177217302076329}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 22.89066, y: -167.78177, z: -76.93098}
+--- !u!1 &3266348129263720423
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1861782394298110101}
+  m_Layer: 0
+  m_Name: corp_4:transform3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1861782394298110101
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3266348129263720423}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2168101881279880399}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3435589472924395434
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9109156687944916857}
+  m_Layer: 0
+  m_Name: PantherHeadBone001Bone001Bone001Bone001
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9109156687944916857
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3435589472924395434}
+  m_LocalRotation: {x: -1.1641522e-10, y: 9.3132224e-10, z: -0.0000000074505775, w: 1}
+  m_LocalPosition: {x: -0.09439209, y: -0.000000038146972, z: 0.000000038146972}
+  m_LocalScale: {x: 1.0000004, y: 1.0000008, z: 0.99999964}
+  m_Children:
+  - {fileID: 2805586582383916383}
+  m_Father: {fileID: 287963374754367051}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.000017340468, y: -0.00001620625, z: 0.000012901739}
+--- !u!1 &3468519408300346965
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9056554077813347899}
+  m_Layer: 0
+  m_Name: PantherHeadBone002
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9056554077813347899
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3468519408300346965}
+  m_LocalRotation: {x: 0.036923375, y: -0.69635683, z: -0.000000018600824, w: 0.7167453}
+  m_LocalPosition: {x: -0.04392452, y: -0.06280243, z: -0.1436866}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 0.99999994}
+  m_Children:
+  - {fileID: 1161904995033090796}
+  m_Father: {fileID: 637233144211510206}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 3.034272, y: -88.42496, z: -2.951788}
+--- !u!1 &3699050157271958692
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8442716848505863413}
+  m_Layer: 0
+  m_Name: PantherHeadBone001Bone001Bone001Bone001Bone001 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8442716848505863413
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3699050157271958692}
+  m_LocalRotation: {x: 2.328305e-10, y: -1.734722e-18, z: -0.000000007450579, w: 1}
+  m_LocalPosition: {x: -0.09439209, y: 0, z: 0.000000038146972}
+  m_LocalScale: {x: 1.0000002, y: 1.0000006, z: 0.99999964}
+  m_Children: []
+  m_Father: {fileID: 1470435958704537024}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.000004863017, y: -0.000008324543, z: -0.0000144079095}
+--- !u!1 &3791049009928689084
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6384944706534826162}
+  m_Layer: 0
+  m_Name: PantherSpine3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6384944706534826162
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3791049009928689084}
+  m_LocalRotation: {x: -0.002474755, y: -0.018702442, z: -0.02278923, w: 0.9995623}
+  m_LocalPosition: {x: -0.14644931, y: 0, z: 0}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 0.9999999}
+  m_Children:
+  - {fileID: 9062504048102963163}
+  m_Father: {fileID: 7981642861651874044}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.16223818, y: 3.324901, z: -8.874162}
+--- !u!1 &4031318725729501294
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6098273118673779241}
+  m_Layer: 0
+  m_Name: PantherTail1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6098273118673779241
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4031318725729501294}
+  m_LocalRotation: {x: -0.00000007444307, y: -0.00000009524387, z: 0.8236043, w: 0.56716484}
+  m_LocalPosition: {x: 0.048945177, y: -0.032405548, z: -0.0000000018428272}
+  m_LocalScale: {x: 1.0000001, y: 1, z: 1}
+  m_Children:
+  - {fileID: 210009574945114264}
+  m_Father: {fileID: 3140177217302076329}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0.000008834331, y: -0.00002077482, z: 93.69216}
+--- !u!1 &4090793889548977322
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3803085041500302778}
+  m_Layer: 0
+  m_Name: PantherSpine6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3803085041500302778
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4090793889548977322}
+  m_LocalRotation: {x: -0.0031325049, y: -0.034983624, z: -0.013867136, w: 0.9992868}
+  m_LocalPosition: {x: -0.14644933, y: 0, z: -0.0000000023841857}
+  m_LocalScale: {x: 1.0000002, y: 1.0000001, z: 1}
+  m_Children:
+  - {fileID: 1612595901981471423}
+  m_Father: {fileID: 8928749003548779688}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.613801, y: 5.819288, z: -1.9636557}
+--- !u!1 &4116700275435050264
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9101366090186830458}
+  m_Layer: 0
+  m_Name: PantherLLegDigit12
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9101366090186830458
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4116700275435050264}
+  m_LocalRotation: {x: 0.010512756, y: -0.0028297333, z: 0.5942756, w: 0.8041878}
+  m_LocalPosition: {x: -0.11664558, y: -0.0000020599364, z: 0.0000023651123}
+  m_LocalScale: {x: 1.0003264, y: 1.0000271, z: 1.0000215}
+  m_Children: []
+  m_Father: {fileID: 2435256894443542830}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -11.404554, y: -15.700209, z: 34.131138}
+--- !u!1 &4300934780180833436
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8339464836700055501}
+  m_Layer: 0
+  m_Name: PantherRLegDigit12 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8339464836700055501
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4300934780180833436}
+  m_LocalRotation: {x: 0.00041539044, y: 0.0008880104, z: 0.5034856, w: 0.8640031}
+  m_LocalPosition: {x: -0.11640887, y: 0.00000009059906, z: 0.0000002670288}
+  m_LocalScale: {x: 1.0001714, y: 0.99991906, z: 1.0000051}
+  m_Children: []
+  m_Father: {fileID: 9094323773101459576}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.0000034787283, y: 0.00000102079, z: 64.18436}
+--- !u!1 &4421932157526536021
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2677504427074667168}
+  m_Layer: 0
+  m_Name: PantherNeck4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2677504427074667168
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4421932157526536021}
+  m_LocalRotation: {x: 0.011817782, y: 0.017264752, z: 0.0456488, w: 0.99873847}
+  m_LocalPosition: {x: -0.08913284, y: 0.000000019073486, z: 0}
+  m_LocalScale: {x: 0.99999994, y: 1.0000002, z: 0.99999994}
+  m_Children:
+  - {fileID: 4042958177641863551}
+  m_Father: {fileID: 3899434545323632692}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -1.1685132, y: -4.102398, z: 11.061756}
+--- !u!1 &4800555935976123855
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4492343539934996121}
+  m_Layer: 0
+  m_Name: PantherLLeg1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4492343539934996121
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4800555935976123855}
+  m_LocalRotation: {x: 0.71095246, y: -0.68647754, z: -0.06953662, w: -0.13586748}
+  m_LocalPosition: {x: 0.0275679, y: 0.015998688, z: 0.13801454}
+  m_LocalScale: {x: 1.0000001, y: 1, z: 1}
+  m_Children:
+  - {fileID: 312379886619957769}
+  m_Father: {fileID: 3140177217302076329}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -36.226906, y: 174.07135, z: -117.933586}
+--- !u!1 &5030448562220171413
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5165228887601856396}
+  m_Layer: 0
+  m_Name: PantherTail4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5165228887601856396
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5030448562220171413}
+  m_LocalRotation: {x: -0.000000010685233, y: -0.000000024546608, z: 0.018652301,
+    w: 0.999826}
+  m_LocalPosition: {x: -0.089881666, y: 0.000000038146972, z: 0}
+  m_LocalScale: {x: 1, y: 1.0000006, z: 0.9999999}
+  m_Children:
+  - {fileID: 5851171799315103939}
+  m_Father: {fileID: 8538461672443438039}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.0000029866624, y: 0.0000044678673, z: -17.450243}
+--- !u!1 &5161075760076773013
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1072809110684900372}
+  m_Layer: 0
+  m_Name: PantherSpine1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1072809110684900372
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5161075760076773013}
+  m_LocalRotation: {x: 0.0036249114, y: 0.034598067, z: -0.07054931, w: 0.9969016}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1.0000004, y: 1.0000001, z: 0.9999999}
+  m_Children:
+  - {fileID: 7981642861651874044}
+  m_Father: {fileID: 3140177217302076329}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: -3.0569768, y: -4.886188, z: -11.751333}
+--- !u!1 &5360393269918272258
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4042958177641863551}
+  m_Layer: 0
+  m_Name: PantherNeck5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4042958177641863551
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5360393269918272258}
+  m_LocalRotation: {x: 0.020190358, y: 0.01983311, z: -0.12796438, w: 0.9913749}
+  m_LocalPosition: {x: -0.089349136, y: 0, z: 0}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 0.99999994}
+  m_Children:
+  - {fileID: 637233144211510206}
+  m_Father: {fileID: 2677504427074667168}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -1.4973977, y: -1.0522615, z: 1.4616172}
+--- !u!1 &5391636956189177080
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6226649350871652974}
+  m_Layer: 0
+  m_Name: PantherLLegDigit11 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6226649350871652974
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5391636956189177080}
+  m_LocalRotation: {x: -0.030851398, y: -0.051063705, z: -0.72958446, w: 0.68128353}
+  m_LocalPosition: {x: -0.14157762, y: -0.009526672, z: -0.0016671371}
+  m_LocalScale: {x: 0.99993813, y: 1.0000625, z: 1.0000004}
+  m_Children:
+  - {fileID: 4275074478759818287}
+  m_Father: {fileID: 5531661911574983247}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -24.031063, y: 10.661338, z: -36.520145}
+--- !u!1 &5460129576661817661
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3748701554207372063}
+  m_Layer: 0
+  m_Name: PantherTail7
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3748701554207372063
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5460129576661817661}
+  m_LocalRotation: {x: -0.0000000017685103, y: -0.000000056639447, z: 0.2553397, w: 0.9668514}
+  m_LocalPosition: {x: -0.06991714, y: 0, z: 1.8189894e-14}
+  m_LocalScale: {x: 0.9999988, y: 1.0000054, z: 0.99999917}
+  m_Children: []
+  m_Father: {fileID: 7136395561457133989}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.0000013230305, y: 0.0000015426135, z: -5.0002403}
+--- !u!1 &5506097150064631487
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1318419282731069591}
+  m_Layer: 0
+  m_Name: PantherLLegPlatform
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1318419282731069591
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5506097150064631487}
+  m_LocalRotation: {x: 0.5642463, y: -0.42617616, z: -0.5642463, w: 0.42617616}
+  m_LocalPosition: {x: -0.2214147, y: 0.07802876, z: -0.6170219}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 68247546161826652}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0.0003395974, y: -90.00001, z: -88.780716}
+--- !u!1 &5741312431828467625
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1612595901981471423}
+  m_Layer: 0
+  m_Name: PantherRibcage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1612595901981471423
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5741312431828467625}
+  m_LocalRotation: {x: -0.0006909857, y: -0.016892536, z: -0.00392465, w: 0.9998494}
+  m_LocalPosition: {x: -0.14644931, y: 0, z: -0.0000000047683715}
+  m_LocalScale: {x: 0.99999887, y: 0.9999992, z: 1.0000002}
+  m_Children:
+  - {fileID: 666117244100857926}
+  - {fileID: 2596647631640890940}
+  - {fileID: 587438142941394521}
+  m_Father: {fileID: 3803085041500302778}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.57622975, y: 2.749753, z: 0.4481228}
+--- !u!1 &5991826827239230616
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1161904995033090796}
+  m_Layer: 0
+  m_Name: PantherHeadBone001Bone001 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1161904995033090796
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5991826827239230616}
+  m_LocalRotation: {x: 0.014486942, y: 0.0007680018, z: -0.52834916, w: 0.84890324}
+  m_LocalPosition: {x: -0.09439211, y: 0, z: 0.000000038146972}
+  m_LocalScale: {x: 0.99999994, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8420419442591399336}
+  m_Father: {fileID: 9056554077813347899}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 1.4558829, y: -0.8026839, z: -63.80566}
+--- !u!1 &6001164632114807551
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 666117244100857926}
+  m_Layer: 0
+  m_Name: PantherLLegShoulderblade
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &666117244100857926
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6001164632114807551}
+  m_LocalRotation: {x: -0.669413, y: 0.6795868, z: 0.19483064, w: 0.22823022}
+  m_LocalPosition: {x: 0.093753316, y: -0.008487625, z: 0.06972828}
+  m_LocalScale: {x: 0.999999, y: 1.0000004, z: 1.0000008}
+  m_Children:
+  - {fileID: 17303701787722106}
+  m_Father: {fileID: 1612595901981471423}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -34.774147, y: 176.55714, z: -88.05981}
+--- !u!1 &6265988043581481859
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2596647631640890940}
+  m_Layer: 0
+  m_Name: PantherNeck1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2596647631640890940
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6265988043581481859}
+  m_LocalRotation: {x: 0.01169541, y: -0.009168495, z: 0.29882082, w: 0.95419353}
+  m_LocalPosition: {x: 0.197682, y: -0.027044296, z: 0.000000038146972}
+  m_LocalScale: {x: 0.99999994, y: 1, z: 1}
+  m_Children:
+  - {fileID: 9210510875469571753}
+  m_Father: {fileID: 1612595901981471423}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 1.1209946, y: -2.6928318, z: 24.533243}
+--- !u!1 &6353335980803632591
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2805586582383916383}
+  m_Layer: 0
+  m_Name: PantherHeadBone001Bone001Bone001Bone001Bone001
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2805586582383916383
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6353335980803632591}
+  m_LocalRotation: {x: 0, y: -0, z: -0.000000007450576, w: 1}
+  m_LocalPosition: {x: -0.094392166, y: 0.000000038146972, z: 0}
+  m_LocalScale: {x: 1.0000006, y: 1.0000015, z: 0.99999934}
+  m_Children: []
+  m_Father: {fileID: 9109156687944916857}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.000023999, y: 0.0000024281385, z: -0.0000011762895}
+--- !u!1 &6379293835229729564
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 312379886619957769}
+  m_Layer: 0
+  m_Name: PantherLLeg2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &312379886619957769
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6379293835229729564}
+  m_LocalRotation: {x: 0.039595395, y: 0.10617216, z: 0.6947179, w: 0.71030056}
+  m_LocalPosition: {x: -0.29878008, y: -0.0000001335144, z: -0.00000019073485}
+  m_LocalScale: {x: 0.99999607, y: 1.0000035, z: 0.9999998}
+  m_Children:
+  - {fileID: 832486599068523447}
+  m_Father: {fileID: 4492343539934996121}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -1.9763092, y: 9.64733, z: 72.23462}
+--- !u!1 &6431059576200148098
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5702495836117372587}
+  m_Layer: 0
+  m_Name: PantherHeadBone001Bone001
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5702495836117372587
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6431059576200148098}
+  m_LocalRotation: {x: -0.014486927, y: -0.0007680869, z: -0.52834916, w: 0.84890324}
+  m_LocalPosition: {x: -0.094392106, y: 0, z: 0}
+  m_LocalScale: {x: 1.0000002, y: 1.0000002, z: 0.99999994}
+  m_Children:
+  - {fileID: 287963374754367051}
+  m_Father: {fileID: 7427256396160180774}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -1.4558965, y: 0.80266947, z: -63.805645}
+--- !u!1 &6821583007552121859
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 340890511429820064}
+  m_Layer: 11
+  m_Name: AttackPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &340890511429820064
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6821583007552121859}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.849, z: 0.609}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8433897510376872786}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6938860199522499264
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3140177217302076329}
+  m_Layer: 0
+  m_Name: PantherPelvis
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3140177217302076329
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6938860199522499264}
+  m_LocalRotation: {x: 0.69604146, y: -0.124604635, z: -0.6960414, w: 0.12460473}
+  m_LocalPosition: {x: 0.00000014739625, y: 0.6693865, z: -0.40596518}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1}
+  m_Children:
+  - {fileID: 4492343539934996121}
+  - {fileID: 6398261907859814009}
+  - {fileID: 1072809110684900372}
+  - {fileID: 6098273118673779241}
+  m_Father: {fileID: 68247546161826652}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0.0000028608106, y: -90.00001, z: -159.70094}
+--- !u!1 &7029875991671328767
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5531661911574983247}
+  m_Layer: 0
+  m_Name: PantherLLegPalm 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5531661911574983247
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7029875991671328767}
+  m_LocalRotation: {x: -0.008803576, y: -0.0023557127, z: 0.12149373, w: 0.9925504}
+  m_LocalPosition: {x: -0.23598012, y: 0, z: 0.000000019073486}
+  m_LocalScale: {x: 0.9999855, y: 1.0000132, z: 1.0000012}
+  m_Children:
+  - {fileID: 6226649350871652974}
+  m_Father: {fileID: 4722099438652726352}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 1.1487613, y: 1.5423717, z: -6.2630897}
+--- !u!1 &7095956230757261789
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3182163314544066776}
+  m_Layer: 0
+  m_Name: corp_4:transform2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3182163314544066776
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7095956230757261789}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3865914034660362789}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7287838539821797776
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7981642861651874044}
+  m_Layer: 0
+  m_Name: PantherSpine2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7981642861651874044
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7287838539821797776}
+  m_LocalRotation: {x: -0.0013684878, y: 0.0142114675, z: -0.014480057, w: 0.99979323}
+  m_LocalPosition: {x: -0.14644931, y: 0, z: 0}
+  m_LocalScale: {x: 1.0000001, y: 1, z: 0.9999999}
+  m_Children:
+  - {fileID: 6384944706534826162}
+  m_Father: {fileID: 1072809110684900372}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -1.7651566, y: -1.8503276, z: -8.979503}
+--- !u!1 &7410306033052672842
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9001571866603236607}
+  m_Layer: 0
+  m_Name: PantherRLegPlatform
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9001571866603236607
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7410306033052672842}
+  m_LocalRotation: {x: 0.4919014, y: -0.5079704, z: -0.49190053, w: 0.50796944}
+  m_LocalPosition: {x: 0.22141483, y: 0.032449447, z: -0.12606627}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 68247546161826652}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: -9.99311, y: -90.01544, z: -93.63355}
+--- !u!1 &7532972081529611802
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5851171799315103939}
+  m_Layer: 0
+  m_Name: PantherTail5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5851171799315103939
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7532972081529611802}
+  m_LocalRotation: {x: 0.000000010850726, y: -1.6185475e-10, z: 0.10990608, w: 0.99394196}
+  m_LocalPosition: {x: -0.07397751, y: 0, z: -4.5474732e-14}
+  m_LocalScale: {x: 0.9999999, y: 1.0000013, z: 0.99999976}
+  m_Children:
+  - {fileID: 7136395561457133989}
+  m_Father: {fileID: 5165228887601856396}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.0000014556987, y: -0.0000017139114, z: -16.967962}
+--- !u!1 &7547609404440733390
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8928749003548779688}
+  m_Layer: 0
+  m_Name: PantherSpine5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8928749003548779688
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7547609404440733390}
+  m_LocalRotation: {x: -0.002625182, y: -0.03425692, z: 0.050368585, w: 0.99813956}
+  m_LocalPosition: {x: -0.14644933, y: -0.000000076293944, z: 0}
+  m_LocalScale: {x: 1.0000002, y: 1.0000001, z: 1.0000002}
+  m_Children:
+  - {fileID: 3803085041500302778}
+  m_Father: {fileID: 9062504048102963163}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.68783444, y: 5.7670507, z: 2.9016044}
+--- !u!1 &7551592481035165005
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 589940074046898482}
+  m_Layer: 0
+  m_Name: corp_4:transform1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &589940074046898482
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7551592481035165005}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6752605592819016826}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7594940629782258582
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 607524773449642379}
+  m_Layer: 11
+  m_Name: HealthTrack
+  m_TagString: Untagged
+  m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &607524773449642379
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7594940629782258582}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.14999986, y: -2.92875, z: -2.662499}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8433897510376872786}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7611207935092586473
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2046295471625257144}
+  m_Layer: 0
+  m_Name: PantherRLegPalm 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2046295471625257144
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7611207935092586473}
+  m_LocalRotation: {x: -0.009287917, y: -0.0000009979215, z: -0.0000039879983, w: 0.9999569}
+  m_LocalPosition: {x: -0.23598011, y: 0.000000019073486, z: 0}
+  m_LocalScale: {x: 1.0000132, y: 0.9999885, z: 0.99999905}
+  m_Children:
+  - {fileID: 9094323773101459576}
+  m_Father: {fileID: 944279157391357512}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -1.1492541, y: -1.5471531, z: -6.2821927}
+--- !u!1 &7665195636736425058
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 17303701787722106}
+  m_Layer: 0
+  m_Name: PantherLLeg1 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &17303701787722106
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7665195636736425058}
+  m_LocalRotation: {x: -0.13527219, y: 0.2836597, z: -0.11798982, w: 0.9419751}
+  m_LocalPosition: {x: -0.21600169, y: 0.00000019073485, z: 0.00000015258789}
+  m_LocalScale: {x: 1.000001, y: 1.0000008, z: 0.9999985}
+  m_Children:
+  - {fileID: 4722099438652726352}
+  m_Father: {fileID: 666117244100857926}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -12.132573, y: -5.5717635, z: 24.761986}
+--- !u!1 &7756260484975554904
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3865914034660362789}
+  m_Layer: 0
+  m_Name: cloute_02:Group2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3865914034660362789
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7756260484975554904}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3182163314544066776}
+  m_Father: {fileID: 68247546161826652}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7810437505094611274
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6752605592819016826}
+  m_Layer: 0
+  m_Name: eyes_01:Group2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6752605592819016826
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7810437505094611274}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 589940074046898482}
+  m_Father: {fileID: 68247546161826652}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7861185530085398978
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9094323773101459576}
+  m_Layer: 0
+  m_Name: PantherRLegDigit11 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9094323773101459576
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7861185530085398978}
+  m_LocalRotation: {x: -0.056779318, y: -0.054955125, z: 0.8859032, w: -0.45709047}
+  m_LocalPosition: {x: -0.14158142, y: -0.009526293, z: 0.0016670418}
+  m_LocalScale: {x: 1.0000778, y: 0.99996835, z: 1.0000023}
+  m_Children:
+  - {fileID: 8339464836700055501}
+  m_Father: {fileID: 2046295471625257144}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 38.257973, y: 16.492504, z: -18.304289}
+--- !u!1 &8097812208851328623
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1470435958704537024}
+  m_Layer: 0
+  m_Name: PantherHeadBone001Bone001Bone001Bone001 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1470435958704537024
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8097812208851328623}
+  m_LocalRotation: {x: 2.3283059e-10, y: -8.6736143e-19, z: -0.0000000037252899, w: 1}
+  m_LocalPosition: {x: -0.09439209, y: 0, z: -0.000000076293944}
+  m_LocalScale: {x: 1.0000001, y: 1.0000002, z: 0.9999998}
+  m_Children:
+  - {fileID: 8442716848505863413}
+  m_Father: {fileID: 8420419442591399336}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.000022221171, y: -0.000016075614, z: -0.000027556895}
+--- !u!1 &8244827017495277828
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 587438142941394521}
+  m_Layer: 0
+  m_Name: PantherRLegShoulderblade
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &587438142941394521
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8244827017495277828}
+  m_LocalRotation: {x: -0.6694397, y: 0.67957175, z: -0.1948249, w: -0.22820175}
+  m_LocalPosition: {x: 0.093753316, y: -0.008487472, z: -0.06972828}
+  m_LocalScale: {x: 1.0000008, y: 0.99999964, z: 0.9999996}
+  m_Children:
+  - {fileID: 7238398594315171335}
+  m_Father: {fileID: 1612595901981471423}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 34.774155, y: -176.55713, z: -88.059814}
+--- !u!1 &8311723618170484715
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2435256894443542830}
+  m_Layer: 0
+  m_Name: PantherLLegDigit11
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2435256894443542830
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8311723618170484715}
+  m_LocalRotation: {x: 0.101604804, y: -0.017500274, z: -0.7641678, w: 0.6367243}
+  m_LocalPosition: {x: -0.25130394, y: -0.00044059753, z: -0.0031492233}
+  m_LocalScale: {x: 1.0001255, y: 0.99992645, z: 1.0000023}
+  m_Children:
+  - {fileID: 9101366090186830458}
+  m_Father: {fileID: 832486599068523447}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 21.549566, y: 7.402604, z: -68.9411}
+--- !u!1 &8356424621436287615
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2288424719669807772}
+  m_Layer: 0
+  m_Name: PantherRLegPalm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2288424719669807772
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8356424621436287615}
+  m_LocalRotation: {x: 0.0720585, y: -0.14437646, z: -0.431128, w: 0.88774526}
+  m_LocalPosition: {x: -0.19037813, y: 0, z: 0.000000019073486}
+  m_LocalScale: {x: 0.9999848, y: 1.0000132, z: 0.9999998}
+  m_Children:
+  - {fileID: 6802360902873654807}
+  m_Father: {fileID: 5728090927519615705}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 2.6197898, y: -6.944711, z: -36.40829}
+--- !u!1 &8433897510376872787
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8433897510376872786}
+  - component: {fileID: 545367739}
+  - component: {fileID: -3148045970948868183}
+  - component: {fileID: 5737815355573828937}
+  - component: {fileID: 2316477299049856848}
+  - component: {fileID: 8174887113154773920}
+  m_Layer: 11
+  m_Name: Babs
+  m_TagString: Character
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8433897510376872786
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8433897510376872787}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 68247546161826652}
+  - {fileID: 309890322991361443}
+  - {fileID: 607524773449642379}
+  - {fileID: 340890511429820064}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!195 &545367739
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8433897510376872787}
+  m_Enabled: 0
+  m_AgentTypeID: 0
+  m_Radius: 0.34
+  m_Speed: 1
+  m_Acceleration: 8
+  avoidancePriority: 20
+  m_AngularSpeed: 120
+  m_StoppingDistance: 1
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 1.54
+  m_BaseOffset: 0.02
+  m_WalkableMask: 1
+  m_ObstacleAvoidanceType: 4
+--- !u!114 &-3148045970948868183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8433897510376872787}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7a4a9d99838ac747a3f924603589ae8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectile: {fileID: 6636425852070858807, guid: 447a20c39f5c4c94a850b93d68fe82bc,
+    type: 3}
+  projectileFinishYOffset: 1
+  data: {fileID: 11400000, guid: 5fb6951f68581524282a259f071bdfd1, type: 2}
+--- !u!114 &5737815355573828937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8433897510376872787}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f99998e1f25b76544b313a2a6102677a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  positionTrack: {fileID: 340890511429820064}
+  healthTracker: {fileID: 607524773449642379}
+  specificHealthOffset: {x: 0, y: 0, z: 0}
+  maxHealth: 20
+  rangeRadius: 2
+  dmg: 0
+  pl: -1
+--- !u!114 &2316477299049856848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8433897510376872787}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 1
+  OwnershipTransfer: 1
+  observableSearch: 2
+  ObservedComponents:
+  - {fileID: 8174887113154773920}
+  sceneViewId: 0
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
+--- !u!114 &8174887113154773920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8433897510376872787}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 1
+  m_UseLocal: 1
+--- !u!1 &8537543785711454572
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6176253080324641397}
+  m_Layer: 0
+  m_Name: Panther
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6176253080324641397
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8537543785711454572}
+  m_LocalRotation: {x: 0.5000001, y: -0.50000006, z: -0.4999999, w: 0.49999997}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 68247546161826652}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0.000004569255, y: -90.00001, z: -90}
+--- !u!1 &8583037220321300745
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 944279157391357512}
+  m_Layer: 0
+  m_Name: PantherRLeg2 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &944279157391357512
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8583037220321300745}
+  m_LocalRotation: {x: 0.00081491924, y: 0.0000002482109, z: 0.0000011620778, w: 0.9999997}
+  m_LocalPosition: {x: -0.26238483, y: -0.00000061035155, z: 0.0000001335144}
+  m_LocalScale: {x: 1.0000095, y: 0.99999106, z: 1.0000001}
+  m_Children:
+  - {fileID: 2046295471625257144}
+  m_Father: {fileID: 7238398594315171335}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -7.046265, y: -10.335186, z: -69.78034}
+--- !u!1 &8653109639526785630
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7427256396160180774}
+  m_Layer: 0
+  m_Name: PantherHeadBone001
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7427256396160180774
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8653109639526785630}
+  m_LocalRotation: {x: -0.036923416, y: 0.69635683, z: -0.00000005983203, w: 0.7167453}
+  m_LocalPosition: {x: -0.04392456, y: -0.06280258, z: 0.1436866}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 0.99999994}
+  m_Children:
+  - {fileID: 5702495836117372587}
+  m_Father: {fileID: 637233144211510206}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -3.0338647, y: 88.424965, z: -2.9518168}
+--- !u!1 &8790631493694892418
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4275074478759818287}
+  m_Layer: 0
+  m_Name: PantherLLegDigit12 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4275074478759818287
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8790631493694892418}
+  m_LocalRotation: {x: 0.00029335154, y: 0.00048501417, z: 0.37608323, w: 0.92658573}
+  m_LocalPosition: {x: -0.116409525, y: 0, z: 0.000000009536743}
+  m_LocalScale: {x: 0.9999185, y: 1.0000818, z: 1.0000015}
+  m_Children: []
+  m_Father: {fileID: 6226649350871652974}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.000010195615, y: -0.0000028820946, z: 64.18466}
+--- !u!1001 &271987179801430600
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8433897510376872786}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: a4017631d832c374a9d4ee76a77985aa,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a4017631d832c374a9d4ee76a77985aa,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a4017631d832c374a9d4ee76a77985aa,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a4017631d832c374a9d4ee76a77985aa,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a4017631d832c374a9d4ee76a77985aa,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a4017631d832c374a9d4ee76a77985aa,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a4017631d832c374a9d4ee76a77985aa,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a4017631d832c374a9d4ee76a77985aa,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a4017631d832c374a9d4ee76a77985aa,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a4017631d832c374a9d4ee76a77985aa,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a4017631d832c374a9d4ee76a77985aa,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a4017631d832c374a9d4ee76a77985aa,
+        type: 3}
+      propertyPath: m_Name
+      value: babs-attack
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a4017631d832c374a9d4ee76a77985aa,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a4017631d832c374a9d4ee76a77985aa, type: 3}
+--- !u!4 &309890322991361443 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: a4017631d832c374a9d4ee76a77985aa,
+    type: 3}
+  m_PrefabInstance: {fileID: 271987179801430600}
+  m_PrefabAsset: {fileID: 0}
